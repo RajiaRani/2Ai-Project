@@ -100,7 +100,11 @@ body {
 }
 
 
-
+/* HOVER EFFECT */
+.left-container ul li a:hover{
+    color: rgba(255, 0, 0, 0.86);
+    text-decoration: underline;
+}
 
 
 
