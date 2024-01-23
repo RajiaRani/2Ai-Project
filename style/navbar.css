@@ -8,7 +8,7 @@
   font-family: 'Roboto Mono', monospace;
   font-family: 'Ubuntu', sans-serif;
   background-color: #fff;
-
+  opacity: 1.0;
 }
 
 .navigation-wrapper {
@@ -25,16 +25,15 @@
 
 .banner-image img {
   padding-top: 1.5rem;
-  /* padding-left: 1.5rem; */
-  margin-left: 4rem;
-  width: 100px;
-  height: 100x;
+  margin-left: 3.8rem;
+  width: 120px;
+  height: 150x;
 
 }
 
 .banner-info {
   padding-left: 0.5rem;
-  padding-top: 1.5rem;
+  padding-top: 1.3rem;
   /* margin-left: 3rem; */
   line-height: 8px;
   text-decoration: underline;
@@ -251,19 +250,20 @@
 
   .left-side-navbar {
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-left: 70px;
   }
 
   .banner-image img {
-    padding-top: 20px;
-    width: 90px;
-    height: 90x;
+    height: 150px;
+    width: 160px;
 
   }
 
   .banner-info {
-    line-height: 8px;
+    margin-top:15px ;
+    line-height: 10px;
     text-decoration: underline;
     font-size: 19px;
 
@@ -274,5 +274,9 @@
     margin-bottom: 20px;
     margin-left: 80px;
     margin-right: 100px;
+  }
+  .intro-wrapper p {
+    font-size: 20px;
+    font-weight: 500;
   }
 }

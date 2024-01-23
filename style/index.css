@@ -51,8 +51,8 @@ body {
 
 .right-container {
     box-shadow: -3px 3px 3px 3px rgba(0, 0, 0, 0.2);
-    padding-left: 5px;
-    padding-right: 5px;
+    /* padding-left: 5px;
+    padding-right: 5px; */
 }
 
 .left-container ul li a,
