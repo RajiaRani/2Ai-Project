@@ -1,13 +1,18 @@
-.body-conatiner{
-    background-color:#fff;;
+.body-conatiner {
+    background-color: #fff;
     margin-top: 8rem;
     margin-left: 10rem;
     margin-right: 10rem;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
 }
-.img-prooject img{
+
+.project-img img {
     width: 700px;
     height: 500px;
 }
+
 .project-overview {
     padding: 1.5rem;
 }
