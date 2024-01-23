@@ -144,7 +144,6 @@
   }
 
   .navigation-wrapper {
-    background-color: pink;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -177,17 +176,16 @@
 }
 
 
- /* for min 1099 px */
-@media screen and (min-width:1099px) {
+ /* for min 1000 px */
+@media screen and (min-width:1000px) {
   navbar {
     width: auto;
-    height: 25px;
+    height: auto;
     margin: 0;
     padding: 0;
   }
 
   .navigation-wrapper {
-    background-color:orchid;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -196,12 +194,12 @@
   .left-side-navbar {
     display: flex;
     align-items: center;
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   .banner-image img {
     padding-top: 20px;
-    margin-left: 50px;
+    margin-left: 20px;
     width: 70px;
     height: 70x;
 
@@ -214,21 +212,22 @@
 
   .intro-wrapper {
     margin-top: 20px;
-    margin-left: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 50%;
   }
 }
 
 /* for min 1300px */
-@media screen and (max-width:1300px) {
+@media screen and (min-width:1100px) {
   navbar {
     width: auto;
-    height: 25px;
+    height: auto;
     margin: 0;
     padding: 0;
   }
 
   .navigation-wrapper {
-    background-color:green;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -237,12 +236,11 @@
   .left-side-navbar {
     display: flex;
     align-items: center;
-    margin-left: 40px;
+    margin-left: -5px;
   }
 
   .banner-image img {
     padding-top: 20px;
-    margin-left: 80px;
     width: 70px;
     height: 70x;
 
@@ -254,7 +252,9 @@
   }
 
   .intro-wrapper {
+    width: auto;
     margin-top: 20px;
-    margin-left: 300px;
+    margin-left: 80px;
+    margin-right: 100px;
   }
 }
