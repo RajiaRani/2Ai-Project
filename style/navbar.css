@@ -4,8 +4,8 @@
   margin: 0;
   padding: 0;
   width: 100vw;
-  height: 7rem;
- font-family: 'Roboto', sans-serif;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
   font-family: 'Roboto Mono', monospace; 
  
 }
@@ -37,7 +37,10 @@
   /* margin-left: 3rem; */
   line-height: 8px;
   text-decoration: underline;
-  font-family: Arial, Helvetica, sans-serif;
+   font-family: Arial, Helvetica, sans-serif; 
+}
+.banner-info p{
+  
 }
 
 .intro-wrapper {
@@ -47,6 +50,9 @@
   margin-left: 10px;
 
 }
+
+
+
 
 
 
