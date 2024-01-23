@@ -9,33 +9,30 @@ body{
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Mono', monospace;
     font-family: 'Ubuntu', sans-serif;
+   
 }
 
 .project-img{
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     padding: 10px;
 }
 .project-img img {
     float: left;
-    width: 700px;
-    height: 500px;
+    width: 500px;
+    height: 500px; 
     margin: 23px 40px 20px 0px;
     border: 1px solid #cea135;
 }
 
 .project-overview  p{
    
-    padding:2rem 1.5rem;
+    /* padding:2rem 1.5rem; */
     line-height: 2;
     font-size: 20px;
-}
-.project-img > .project-overview {
-    width: 1000%;
-}
-
+} 
 
 .image-container {
     position: relative;
