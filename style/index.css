@@ -21,16 +21,6 @@ body {
 
 }
 
-.left-container {
-    /* margin-right: 0.7rem;
-    margin-left: 0.7rem; */
-}
-
-.right-container {
-    /* margin-left: 0.7rem;
-    margin-right: 0.7rem; */
-}
-
 .left-container,
 .right-container {
     margin-left: 10px;
