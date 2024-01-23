@@ -4,11 +4,12 @@
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Mono', monospace;
     font-family: 'Ubuntu', sans-serif;
+    background-color: #fff;
 }
 
 .f-info {
     /* height: 100%; */
-    background-color: #ededed;
+    background-color: #fff;
     display: flex;
     flex-wrap: wrap;
     text-align: center;

@@ -1,5 +1,4 @@
 .navbar {
-  background-color: #ededed;
   color: black;
   margin: 0;
   padding: 0;
@@ -8,6 +7,7 @@
   font-family: 'Roboto', sans-serif;
   font-family: 'Roboto Mono', monospace;
   font-family: 'Ubuntu', sans-serif;
+  background-color: #fff;
 
 }
 
