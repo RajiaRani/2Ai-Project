@@ -59,7 +59,7 @@ body {
 .middle-container {
     width: 60%;
     background-color: #fff;
-    min-height: 100auto;
+    height: auto;
     opacity: 0.9;
     margin-left: 10px;
     /* background-color: #ededed; */
