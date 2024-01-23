@@ -25,8 +25,8 @@
   padding-top: 1.5rem;
   /* padding-left: 1.5rem; */
   margin-left: 4rem;
-  max-width: 70px;
-  height: 70x;
+  width: 100px;
+  height: 100x;
 
 }
 
@@ -36,12 +36,14 @@
   /* margin-left: 3rem; */
   line-height: 8px;
   text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .intro-wrapper {
-  margin-top: 2rem;
-  max-width: 900px;
-  margin-right: 12rem;
+  margin-top: 20px;
+  max-width: 70%;
+  margin-right: 10px;
+  margin-left: 10px;
 
 }
 
@@ -90,7 +92,7 @@
 
 
 /* for minimum 555px screen */
-@media screen and (min-width:555px) and (max-width:1000px) {
+@media screen and (min-width:555px) and (max-width:1100px) {
   navbar {
     width: auto;
     height: auto;
@@ -135,7 +137,7 @@
 
 
 /* for maximum 1100 ya below this 1100 px */
-@media screen and (max-width:1100px) {
+@media screen and (max-width:1199px) {
   navbar {
     width: auto;
     height: 25px;
@@ -176,8 +178,8 @@
 }
 
 
- /* for min 1000 px */
-@media screen and (min-width:1000px) {
+ /* for min 1300 px */
+@media screen and (min-width:1300px) {
   navbar {
     width: auto;
     height: auto;
@@ -218,8 +220,8 @@
   }
 }
 
-/* for min 1300px */
-@media screen and (min-width:1100px) {
+/* for min 1400px */
+@media screen and (min-width:1400px) {
   navbar {
     width: auto;
     height: auto;
@@ -236,23 +238,25 @@
   .left-side-navbar {
     display: flex;
     align-items: center;
-    margin-left: -5px;
+    margin-left: 70px;
   }
 
   .banner-image img {
     padding-top: 20px;
-    width: 70px;
-    height: 70x;
-
+    width: 85px;
+    height: 85x;
+   padding-bottom: 20px;
   }
 
   .banner-info {
     line-height: 8px;
     text-decoration: underline;
+    font-size: 19px;
+    padding-bottom: 20px;
   }
 
   .intro-wrapper {
-    width: auto;
+    width: 70%;
     margin-top: 20px;
     margin-left: 80px;
     margin-right: 100px;
