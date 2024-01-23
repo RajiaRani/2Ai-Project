@@ -12,10 +12,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     margin-top: 2.5rem;
-    /* background-image: url("IMG_15102.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
+    background-color: #fff;
 }
 
 .team-image img{
