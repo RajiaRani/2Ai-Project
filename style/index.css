@@ -61,7 +61,6 @@ body {
     background-color: #fff;
     height: auto;
     margin-left: 10px;
-    /* background-color: #ededed; */
 }
 
 .projects {
@@ -75,6 +74,12 @@ body {
 }
 .project-info h2{
     color: #062b81;
+    font-size: 26px;
+}
+
+.project-info p {
+  font-size: 18px;
+  line-height: 1.5;
 }
 .projects .project-image img {
     width: 162px;
