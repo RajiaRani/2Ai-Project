@@ -75,7 +75,6 @@
   }
 
   .banner-info {
-    line-height: 4px;
     text-decoration: underline;
   }
 
@@ -91,7 +90,7 @@
 
 
 /* for minimum 555px screen */
-@media screen and (min-width:555px) {
+@media screen and (min-width:555px) and (max-width:1000px) {
   navbar {
     width: auto;
     height: auto;
@@ -100,34 +99,36 @@
   }
 
   .navigation-wrapper {
+    background-color: pink;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
+   
   }
 
   .left-side-navbar {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
-    margin-left: 10px;
+    margin-left: 15px;
   }
 
   .banner-image img {
-    padding-top: 10px;
-    margin-left: 12px;
-    width: 60px;
-    height: 60x;
+    padding-top: 20px;
+    margin-left: 15px;
+    width: 50px;
+    height: 50x;
 
   }
 
   .banner-info {
-    line-height: 6px;
+    
     text-decoration: underline;
+    margin-right: 10px;
   }
 
   .intro-wrapper {
-    margin-top: 12px;
-    width: 800px;
+    margin-top: 20px;
+    width: 700px;
     margin-right: 30px;
   }
 }
