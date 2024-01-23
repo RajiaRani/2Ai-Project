@@ -1,3 +1,4 @@
+
 document.getElementById('clickableImage').addEventListener('click', function() {
     document.getElementById('fullImageOverlay').style.display = 'flex';
 });
