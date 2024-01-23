@@ -7,7 +7,7 @@
 }
 
 .f-info {
-    height: auto;
+    /* height: 100%; */
     background-color: #ededed;
     display: flex;
     flex-wrap: wrap;
@@ -15,8 +15,7 @@
     justify-content: center;
     align-items: space-evenly;
     font-size: 20px;
-    width: auto;
-    height: auto;
+    
 }
 
 .f-info-brand,
@@ -27,8 +26,7 @@
     align-items: center;
     justify-content: center;
     padding-bottom: 2rem;
-    width: auto;
-    height: auto;
+    /* height: auto; */
 }
 
 .f-info-socials i {
