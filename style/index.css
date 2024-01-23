@@ -1,16 +1,16 @@
 body {
-    position: absolute;
     margin: 0;
     padding: 0;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
 }
+
 
 .body-main-container {
     display: flex;
      /* height: 100%;*/
-    width: auto; 
+    width: 100vw; 
     background-color: #fff;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
@@ -35,7 +35,7 @@ body {
 .right-container {
     margin-left: 10px;
     margin-right: 10px;
-    width: 18rem;
+    width: 18%;
     height: auto;
      background-color: rgb(240,236,236); 
      background-color: #ededed; 
@@ -64,7 +64,7 @@ body {
 
 
 .middle-container {
-    width: 58rem;
+    width: 60%;
     background-color: #fff;
     min-height: 100auto;
     opacity: 0.9;
