@@ -3,7 +3,7 @@
     width: 100vw;
 }
 .f-info {
-    height: auto;
+    height: 100%;
     background-color:#ededed;
     display: flex;
     flex-wrap: wrap;
