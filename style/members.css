@@ -3,8 +3,12 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    width: 100%;
-    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+    width: 100vw;
+    background-color: #ebebeb;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+   
 }
 
 #image-container{
@@ -12,19 +16,23 @@ body {
     align-items: center;
     justify-content: space-evenly;
     margin-top: 2.5rem;
-    background-color: #fff;
+    background-color: #ebebeb;
 }
 
 .team-image img{
-    height: 550px;
+    height: 600px;
     width: 900px;
 }
-.recent-team > .recent-team-name , .old-team > .old-team-name{
+.recent-team > .recent-team-name li , .old-team > .old-team-name li{
     line-height: 1.8;
+    font-weight: 500;
+    font-size: 20px;
 }
 .recent-team h1, .old-team h1{
     padding-left: 1rem;
+    font-size: 1.9rem;
     color: #062b81;
+    font-size: 38px;
     text-decoration:underline;
 }
 .team-image{
