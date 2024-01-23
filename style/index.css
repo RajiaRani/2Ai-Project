@@ -60,7 +60,6 @@ body {
     width: 60%;
     background-color: #fff;
     height: auto;
-    opacity: 0.9;
     margin-left: 10px;
     /* background-color: #ededed; */
 }
@@ -131,8 +130,6 @@ body {
         margin-bottom:6rem ;
     }
     
-
-
 .left-container,
 .right-container {
     width: 18%;
