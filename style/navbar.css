@@ -9,6 +9,7 @@
   font-family: 'Ubuntu', sans-serif;
   background-color: #fff;
   opacity: 1.0;
+  height: 220px;
 }
 
 .navigation-wrapper {
@@ -24,7 +25,7 @@
 }
 
 .banner-image img {
-  padding-top: 1.5rem;
+  /* padding-top: 1.5rem; */
   margin-left: 3.8rem;
   width: 120px;
   height: 150x;
@@ -41,11 +42,10 @@
 
 .banner-info p {
   font-size: 21px;
-  /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 .intro-wrapper {
-  margin-top: 10px;
+  margin-top: 30px;
   max-width: 70%;
   margin-right: 10px;
   margin-left: 10px;
@@ -236,33 +236,37 @@
 /* for min 1400px */
 @media screen and (min-width:1400px) {
   navbar {
-    width: auto;
+    width: 100vw;
     height: auto;
     margin: 0;
     padding: 0;
   }
 
   .navigation-wrapper {
+    height: auto;
+    width: auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
   }
 
   .left-side-navbar {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-left: 70px;
+     align-items: center; 
+    /* margin-left: 70px; */
   }
 
   .banner-image img {
-    height: 150px;
-    width: 160px;
+    height: 200px;
+    width: 150px;
 
   }
 
   .banner-info {
-    margin-top:15px ;
+    margin-left: 2px;
+    margin-top: 30px;
     line-height: 10px;
     text-decoration: underline;
     font-size: 19px;
@@ -271,10 +275,10 @@
 
   .intro-wrapper {
     width: 70%;
-    margin-bottom: 20px;
     margin-left: 80px;
     margin-right: 100px;
   }
+
   .intro-wrapper p {
     font-size: 20px;
     font-weight: 500;
