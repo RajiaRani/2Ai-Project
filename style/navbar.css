@@ -118,8 +118,30 @@
   }
   
   .intro-wrapper {
-  margin-top: 2rem;
-  width: 900px;
-  margin-right: 10rem;
+  margin-top: 12px;
+  width: 800px;
+  margin-right: 30px;
   }
+}
+
+@media screen and (min-width:1100px){
+
+
+  .banner-image img {
+    padding-top: 20px;
+  margin-left: 20px;
+  width: 70px;
+  height: 70x;
+  
+  }
+  .banner-info {
+    line-height: 8px;
+    text-decoration: underline;
+  }
+
+  .intro-wrapper {
+    margin-top: 20px;
+    width: 900px;
+    margin-right: 50px;
+    }
 }
