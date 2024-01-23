@@ -7,7 +7,8 @@
   height: auto;
   font-family: 'Roboto', sans-serif;
   font-family: 'Roboto Mono', monospace;
- 
+  font-family: 'Ubuntu', sans-serif;
+
 }
 
 .navigation-wrapper {
@@ -38,9 +39,10 @@
   line-height: 8px;
   text-decoration: underline;
 }
-.banner-info p{
+
+.banner-info p {
   font-size: 21px;
-  font-family: Arial, Helvetica, sans-serif; 
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .intro-wrapper {
@@ -50,7 +52,8 @@
   margin-left: 10px;
 
 }
-.intro-wrapper p{
+
+.intro-wrapper p {
   font-size: 18px;
   font-weight: 600;
 }
@@ -116,7 +119,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+
   }
 
   .left-side-navbar {
@@ -134,7 +137,7 @@
   }
 
   .banner-info {
-    
+
     text-decoration: underline;
     margin-right: 10px;
   }
@@ -189,7 +192,7 @@
 }
 
 
- /* for min 1300 px */
+/* for min 1300 px */
 @media screen and (min-width:1300px) {
   navbar {
     width: auto;
@@ -256,19 +259,19 @@
     padding-top: 20px;
     width: 90px;
     height: 90x;
-   
+
   }
 
   .banner-info {
     line-height: 8px;
     text-decoration: underline;
     font-size: 19px;
-    
+
   }
 
   .intro-wrapper {
     width: 70%;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
     margin-left: 80px;
     margin-right: 100px;
   }
