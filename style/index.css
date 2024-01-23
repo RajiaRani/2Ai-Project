@@ -104,6 +104,7 @@ body {
 .left-container ul li a:hover{
     color: rgba(255, 0, 0, 0.86);
     text-decoration: underline;
+    transition: 0.5s;
 }
 
 
