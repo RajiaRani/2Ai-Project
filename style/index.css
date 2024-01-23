@@ -36,9 +36,6 @@ body {
     justify-content: center;
     border: 0px solid black;
     box-shadow:3px 3px 3px 3px rgba(0, 0, 0, 0.2); 
-    /* text-align: start;
-    padding-left: 1rem; */
-   opacity: 0.9;
 }
 
 .left-container h2,
@@ -97,5 +94,103 @@ body {
 }
 
 
+
+
+
+
+
+@media screen and (max-width:550px)  {
+
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+        font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+    }
+    
+    .body-main-container {
+        display: flex;
+        width: auto; 
+        background-color: #fff;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: auto;
+        line-height: auto;
+        margin-top: 6rem; 
+        margin-bottom:6rem ;
+    }
+    
+
+
+.left-container,
+.right-container {
+    width: 18%;
+    height: auto;
+    background-color: #ededed; 
+    border-radius: 10px;
+    line-height: 1.4;
+    font-weight: 500;
+    font-size: 12px;
+    justify-content: center;
+    border: 0px solid black;
+    box-shadow:3px 3px 3px 3px rgba(0, 0, 0, 0.2); 
+}
+
+.left-container h2,
+.right-container h2 {
+    padding-left: 1rem;
+    color: #062b81;
+   
+}
+.right-container{
+    box-shadow:-3px 3px 3px 3px rgba(0, 0, 0, 0.2); 
+}
+
+
+.middle-container {
+    width: 60%;
+    background-color: #fff;
+    min-height: auto;
+    opacity: 0.9;
+}
+
+.projects {
+    margin-bottom: 0.4rem;
+    /* margin-right: 1rem; */
+    border: 1px solid #ededed;
+    border-radius: 10px;
+
+}
+.project-info h2{
+    color: #062b81;
+}
+.projects .project-image img {
+    width: 180px;
+    height: 100px;
+}
+
+
+.middle-container>.projects a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    text-decoration: none;
+    color:black;
+}
+
+.projects .project-info {
+    padding: 1rem;
+}
+
+.projects .project-image {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+
+}
 
  
