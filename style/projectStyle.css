@@ -14,23 +14,28 @@ body{
 .project-img{
     position: relative;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 .project-img img {
+    float: left;
     width: 700px;
     height: 500px;
+    margin: 23px 40px 20px 0px;
+    border: 1px solid #cea135;
 }
 
-.project-overview {
-    padding: 1.5rem;
+.project-overview  p{
+   
+    padding:2rem 1.5rem;
+    line-height: 2;
+    font-size: 20px;
+}
+.project-img > .project-overview {
+    width: 1000%;
 }
 
-body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-}
 
 .image-container {
     position: relative;
