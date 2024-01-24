@@ -41,9 +41,9 @@ body {
 .recent-team{
     margin-top: 4rem;
 }
-.recent-team-name , .old-team-name span{
+.recent-team-name , .old-team-name{
     padding: 20px;
-    line-height: 1.8;
+    line-height: 1.9;
     font-weight: 500;
     font-size: 17px;
 }
