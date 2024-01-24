@@ -6,14 +6,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 2.5rem;
     background-color: #ebebeb;
     margin-top: 15rem;
+    background-color: pink;
+    margin-bottom: 2rem;
 }
 
 .team-image img{
-    height: 600px;
-    width: 900px;
+    height: 800px;
+    width: 1000px;
 }
 .recent-team > .recent-team-name li , .old-team > .old-team-name li{
     line-height: 1.8;
