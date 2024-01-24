@@ -1,6 +1,5 @@
 body {
     position: absolute;
-   
 }
 
 #image-container{
@@ -9,6 +8,7 @@ body {
     justify-content: space-evenly;
     margin-top: 2.5rem;
     background-color: #ebebeb;
+    margin-top: 15rem;
 }
 
 .team-image img{
@@ -25,7 +25,11 @@ body {
     font-size: 1.9rem;
     color: #062b81;
     font-size: 38px;
-    text-decoration:underline;
+    border-bottom: 2px solid  rgba(246, 2, 2, 0.86);
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 100px;
+    
 }
 .team-image{
     padding-right: 1rem;
@@ -35,7 +39,8 @@ body {
   width: 500px;
 }
 .recent-team{
+    margin-top: 4rem;
     border: 1px solid black;
-    border-radius: 10px;
-    box-shadow: 3px 3px 3px 0px #000000;
+    /* border-radius: 10px;
+    box-shadow: 3px 3px 3px 0px #000000; */
 }
