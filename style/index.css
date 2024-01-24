@@ -39,7 +39,15 @@ body {
     padding-left: 1.5rem;
     color: #062b81;
     font-size: 38px;
-
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 50px;
+    border-bottom: 1px solid #062b81;
+    border-radius: 10px;
+    /* padding-left: 5px;
+    padding-top: -5px;
+    padding-bottom: -5px; */
+    /* box-shadow: 5px 3px 4px 5px rgba(0, 0, 0, 0.2); */
 }
 
 .right-container {
@@ -60,9 +68,12 @@ body {
    font-size: 25px;
    margin-left: 20px;
    margin-right: 50px;
-   border: 1px solid #062b81;
-   border-radius: 10px;
+   /* border: 1px solid #062b81; */
+   /* border-radius: 10px;
     padding-left: 5px;
+    padding-top: -5px;
+    padding-bottom: -5px;
+   box-shadow: 5px 3px 4px 5px rgba(0, 0, 0, 0.2); */
 }
 
 #previous-team-link a {
