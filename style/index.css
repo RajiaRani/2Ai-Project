@@ -55,6 +55,16 @@ body {
     font-size: 20px;
     font-weight: 500;
 }
+.right-container > #previous-team-link {
+   color: #062b81;
+   font-size: 25px;
+   margin-left: 40px;
+   margin-right: 10px;
+   
+}
+#previous-team-link a {
+    text-decoration: none;
+}
 
 .middle-container {
     width: 60%;
