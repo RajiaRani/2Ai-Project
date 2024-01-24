@@ -45,5 +45,9 @@ body{
 }
 .projects h1{
     color: #062b81;
-    font-size: 38px;
+    font-size: 35px;
+}
+.projects h3{
+    color: rgba(255, 0, 0, 0.86);
+    font-size: 20px;
 }
