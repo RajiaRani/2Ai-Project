@@ -17,6 +17,8 @@ body{
     align-items: center; 
     padding: 15px;
     background-color:#fff;
+    min-height: 1400px;
+    max-height: auto;
 }
 .project-img img {
     padding-top: 20px;
