@@ -19,12 +19,8 @@ body {
     width: 1000px; 
     margin-bottom: 10px;
 } 
- .recent-team > .recent-team-name li , .old-team > .old-team-name li{
-    line-height: 1.8;
-    font-weight: 500;
-    font-size: 20px;
-} 
-.recent-team h1, .old-team h1{
+ 
+.recent-team h1{
     padding-left: 1rem;
     font-size: 1.9rem;
     color: #062b81;
@@ -32,23 +28,19 @@ body {
     border-bottom: 2px solid  rgba(246, 2, 2, 0.86);
     border-radius: 10px;
     margin-left: 10px;
-    margin-right: 100px;
+    margin-right: 60%;
     
 }
-.team-image{
-    padding-right: 1rem;
-}
-.old-team{
-  margin: 3rem;
-  width: 500px;
-}
+
  .recent-team{
     margin-top: 4rem;
-    /* border: 1px solid black;
-     border-radius: 10px;
-    box-shadow: 3px 3px 3px 0px #000000;  */
 }
-
+.recent-team-name{
+    padding: 20px;
+    line-height: 1.8;
+    font-weight: 500;
+    font-size: 17px;
+}
   
   /* Hover effect for team names */
   .recent-team-name li:hover, .old-team-name li:hover {
