@@ -7,18 +7,21 @@
   background-color: #fff;
   opacity: 1.0;
   height: 220px;
+  position: relative;
 }
 
 .navigation-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
 }
 
 .left-side-navbar {
   display: flex;
   align-items: center;
   margin-left: 4rem;
+ 
 }
 
 .banner-image img {
@@ -26,7 +29,7 @@
   margin-left: 3.8rem;
   width: 120px;
   height: 100x;
-
+ 
 }
 
 .banner-info {
@@ -35,6 +38,7 @@
   /* margin-left: 3rem; */
   line-height: 8px;
   text-decoration: underline;
+  
 }
 
 .banner-info p {
