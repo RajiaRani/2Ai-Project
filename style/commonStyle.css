@@ -29,11 +29,14 @@ body{
 }
 
 .btn  button {
-    background-color:  rgba(249, 49, 49, 0.86);
+    background-color: #062b81;
+    color: #fff;
     font-size: 20px;
     border-radius: 5px;
     border: none;
-    padding-left: 9px;
-    padding-right: 9px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     
 }
