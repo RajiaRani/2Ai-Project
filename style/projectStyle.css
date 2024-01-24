@@ -19,11 +19,12 @@ body{
     background-color:green;
 }
 .project-img img {
-    float: left;
-    width: 700px;
+    
+    width: 900px;
     height: 500px; 
-    margin: 23px 40px 20px 0px;
-    border: 1px solid #cea135;
+    margin: 23px 40px 0px -100px;
+    border: 1px solid #062b81;
+    border-radius: 20px;
 }
 
 .project-overview  p{
@@ -39,4 +40,5 @@ body{
 .projects{
     background-color: #fff;
     padding-left: 20px;
+   
 }
