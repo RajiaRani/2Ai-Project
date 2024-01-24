@@ -12,15 +12,16 @@ body {
     margin-bottom: 2rem;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 5rem;
 }
 
 .team-image img{
     height: 700px;
     width: 1000px; 
     margin-bottom: 10px;
-    margin-top: 80px;
+    margin-top: 90px;
     border: 2px solid rgba(246, 2, 2, 0.86);
-    border-radius: 10px;
+    border-radius: 20px;
 } 
  
 .recent-team h1{
