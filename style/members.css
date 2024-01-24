@@ -54,22 +54,23 @@ body {
   
 
 /* Media-Query */
-@media screen and (min-width:550px){
+@media screen and (max-width:550px){
     #image-container{
         display: flex;
         flex-direction: column;
         align-items: center;
+        flex-wrap: wrap;
         justify-content: space-evenly;
         background-color: #ebebeb;
-        margin-top: 30px;
+        margin-top:17rem;
         margin-bottom: 10px;
         margin-left: 3%;
         margin-right: 3%;
         margin-bottom: 15px;
     }
     .team-image img{
-        height: 350px;
-        width: 500px; 
+        height: 300px;
+        width: 300px; 
         margin-bottom: 5px;
         margin-top: 30px;
         border: 2px solid rgba(246, 2, 2, 0.86);
