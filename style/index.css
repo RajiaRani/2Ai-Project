@@ -86,10 +86,13 @@ body {
 }
 
 .middle-container {
-    width: 60%;
+    width: 62%;
     height: auto;
     margin-left: 10px;
     margin-left: 20.4%;
+    height: auto;
+    margin-left: 19%; /* Adjusted margin to provide space for left container */
+    margin-right: 18%;
 }
 
 .projects {
