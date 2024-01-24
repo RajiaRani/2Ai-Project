@@ -23,6 +23,7 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     width: 18%;
+    min-height: 700px;
     max-height: auto;
     border-radius: 10px;
     line-height: 1.8;
