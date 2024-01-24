@@ -1,24 +1,26 @@
 body{
-    background-color: #ebebeb;
+    background-color:#ebebeb;
+    
 }
-.body-conatiner {
-    background-color: #ebebeb;
-    margin-top: 8rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
-    margin-bottom: 8rem;
+.project-content{
+    background-color: #062b81;
+    padding: 10px;
+    border: 2px solid #062b81;
+    border-radius: 10px;
 }
 
 .project-img{
     position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center; 
     padding: 10px;
+    background-color: #fff;
 }
 .project-img img {
     float: left;
-    width: 500px;
+    width: 700px;
     height: 500px; 
     margin: 23px 40px 20px 0px;
     border: 1px solid #cea135;
@@ -33,4 +35,8 @@ body{
 
 .image-container {
     position: relative;
+}
+.projects{
+    background-color: #fff;
+    padding-left: 20px;
 }
