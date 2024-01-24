@@ -7,14 +7,12 @@
   background-color: #fff;
   opacity: 1.0;
   height: 220px;
-  position: relative;
 }
 
 .navigation-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
 }
 
 .left-side-navbar {
