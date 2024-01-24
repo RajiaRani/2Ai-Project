@@ -137,7 +137,6 @@ body {
     color: #062b81;
 }
 .right-container > #previous-team-link:hover{
-    border:2px solid #062b81;
     border-radius: 10px;
     box-shadow: 1px 1px 1px 1px rgba(255, 0, 0, 0.86);
 }
