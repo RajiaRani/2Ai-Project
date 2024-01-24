@@ -15,8 +15,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-    padding: 10px;
-    background-color: #fff;
+    padding: 15px;
+    background-color:green;
 }
 .project-img img {
     float: left;
