@@ -4,20 +4,23 @@ body {
 
 #image-container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     background-color: #ebebeb;
     margin-top: 15rem;
     margin-bottom: 2rem;
-    margin-left: 25%;
-   margin-right: 25%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .team-image img{
-    height: 800px;
+    height: 700px;
     width: 1000px; 
     margin-bottom: 10px;
+    margin-top: 80px;
+    border: 2px solid rgba(246, 2, 2, 0.86);
+    border-radius: 10px;
 } 
  
 .recent-team h1{
@@ -28,7 +31,7 @@ body {
     border-bottom: 2px solid  rgba(246, 2, 2, 0.86);
     border-radius: 10px;
     margin-left: 10px;
-    margin-right: 60%;
+    margin-right: 50px;
     
 }
 
