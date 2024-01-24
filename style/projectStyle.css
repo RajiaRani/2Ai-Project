@@ -3,7 +3,7 @@ body{
     
 }
 .project-content{
-    background-color: #062b81;
+    background-color:#fff;
     padding: 10px;
     border: 2px solid #062b81;
     border-radius: 10px;
@@ -19,11 +19,11 @@ body{
     background-color:#fff;
 }
 .project-img img {
-    
+    padding-top: 20px;
     width: 900px;
     height: 500px; 
     margin: 23px 40px 0px -100px;
-    border: 1px solid #062b81;
+    border: 1px solid #fff;
     border-radius: 20px;
 }
 
