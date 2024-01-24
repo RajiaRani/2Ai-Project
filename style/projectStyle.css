@@ -40,5 +40,10 @@ body{
 .projects{
     background-color: #fff;
     padding-left: 20px;
+    padding-top: 10px;
    
+}
+.projects h1{
+    color: #062b81;
+    font-size: 38px;
 }
