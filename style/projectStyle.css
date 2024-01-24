@@ -16,7 +16,7 @@ body{
     justify-content: center;
     align-items: center; 
     padding: 15px;
-    background-color:green;
+    background-color:#fff;
 }
 .project-img img {
     
@@ -29,7 +29,7 @@ body{
 
 .project-overview  p{
    
-    /* padding:2rem 1.5rem; */
+    padding:2rem 1.5rem; 
     line-height: 2;
     font-size: 20px;
 } 
