@@ -1,4 +1,4 @@
-
+//  for navbar
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("navbar");
