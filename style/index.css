@@ -113,7 +113,9 @@ body {
     font-size: 18px;
     line-height: 1.5;
 }
-
+.project-info span{
+    font-size: 20px;
+}
 .projects .project-image img {
     width: 162px;
     height: 100px;
