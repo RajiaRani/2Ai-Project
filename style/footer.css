@@ -1,0 +1,51 @@
+#main-footer{
+    height: auto;
+    width: 100vw;
+}
+.f-info {
+    height: auto;
+    background-color:#ededed;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+.f-info-brand,
+.f-info-links,
+.f-info-socials {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem
+}
+
+.f-info-socials i {
+    margin-top:1rem ;
+    margin-right: 1.2rem;
+    font-size: 1.5rem;
+    color: #062b81;
+}
+
+
+
+.f-info-links a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.f-info-socials i:hover {
+    color: rgba(255, 0, 0, 0.86);
+    transition: 0.5s;
+}
+
+
+
+
+ 
+
+
+
