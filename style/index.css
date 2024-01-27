@@ -137,8 +137,8 @@ body {
     }
 } */
 
-/* 
- @media screen and (min-width: 992px) {
+ 
+ @media screen and (max-width: 992px) {
     .body-main-container {
         display: flex;
         height: auto;
@@ -166,4 +166,4 @@ body {
         background-color: #fff;
         height: 100vh;
     }
-}    */
+}    
