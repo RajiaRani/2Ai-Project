@@ -5,7 +5,7 @@
   padding: 0;
   width: 100vw;
   height: 300px;
-  background-color: #fff; 
+  background-color: #ebebeb; 
   opacity: 1.0;
   height: 220px;
   position: fixed;
@@ -14,10 +14,16 @@
 }
 .navbar-header{
   width: 100vw;
+  height: 180px;
+  /* border:1px solid black;
+  box-shadow: 3px 3px 3px 0px black; */
 }
 .navbar-icons{
   margin-top: 20px;
   height: 37px;
+  /* color:#062b81; */
+  background-color: black;
+  color: #ebebeb;
 }
 
 .navbar-icons , .navigation-wrapper{
