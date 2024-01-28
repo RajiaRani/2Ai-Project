@@ -1,0 +1,288 @@
+.navbar {
+  color: black;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: auto;
+  background-color: #fff; 
+  opacity: 1.0;
+  height: 220px;
+  position: fixed;
+  top: 0;
+  z-index: 101;
+}
+
+.navigation-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-side-navbar {
+  display: flex;
+  align-items: center;
+  margin-left: 4rem;
+ 
+}
+
+.banner-image img {
+  /* padding-top: 1.5rem; */
+  margin-left: 3.8rem;
+  width: 120px;
+  height: 100x;
+ 
+}
+
+.banner-info {
+  padding-left: 0.5rem;
+  padding-top: 1.3rem;
+  /* margin-left: 3rem; */
+  line-height: 8px;
+  text-decoration: underline;
+  
+}
+
+.banner-info p {
+  font-size: 21px;
+}
+
+.intro-wrapper {
+  margin-top: 30px;
+  max-width: 70%;
+  margin-right: 10px;
+  margin-left: 10px;
+
+}
+
+.intro-wrapper p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+
+
+
+
+/* media query */
+@media screen and (max-width:550px) {
+  .navbar {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navigation-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .left-side-navbar {
+    margin-left: -25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .banner-image img {
+    width: auto;
+    height: auto;
+
+  }
+
+  .banner-info {
+    text-decoration: underline;
+  }
+
+  .intro-wrapper {
+    margin-top: -10px;
+    width: auto;
+    margin-left: 30px;
+    margin-right: 20px;
+
+  }
+
+}
+
+
+/* for minimum 555px screen */
+@media screen and (min-width:555px) and (max-width:1100px) {
+  navbar {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navigation-wrapper {
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .left-side-navbar {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+  }
+
+  .banner-image img {
+    padding-top: 20px;
+    margin-left: 15px;
+    width: 50px;
+    height: 50x;
+
+  }
+
+  .banner-info {
+
+    text-decoration: underline;
+    margin-right: 10px;
+  }
+
+  .intro-wrapper {
+    margin-top: 20px;
+    width: auto;
+    margin-right: 20px;
+  }
+}
+
+
+/* for maximum 1100 ya below this 1100 px */
+@media screen and (max-width:1199px) {
+  navbar {
+    width: auto;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navigation-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .left-side-navbar {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
+
+  .banner-image img {
+    padding-top: 20px;
+    margin-left: 20px;
+    width: 70px;
+    height: 70x;
+
+  }
+
+  .banner-info {
+    line-height: 8px;
+    text-decoration: underline;
+  }
+
+  .intro-wrapper {
+    margin-top: 20px;
+    width: 900px;
+    margin-right: 50px;
+  }
+}
+
+
+/* for min 1300 px */
+@media screen and (min-width:1300px) {
+  navbar {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navigation-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .left-side-navbar {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+  .banner-image img {
+    padding-top: 20px;
+    margin-left: 20px;
+    width: 70px;
+    height: 70x;
+
+  }
+
+  .banner-info {
+    line-height: 8px;
+    text-decoration: underline;
+  }
+
+  .intro-wrapper {
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 50%;
+  }
+}
+
+/* for min 1400px */
+@media screen and (min-width:1400px) {
+  navbar {
+    width: 100vw;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navigation-wrapper {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+  }
+
+  .left-side-navbar {
+    display: flex;
+    justify-content: center;
+     align-items: center; 
+    /* margin-left: 70px; */
+  }
+
+  .banner-image img {
+    height: 200px;
+    width: 150px;
+
+  }
+
+  .banner-info {
+    margin-left: 2px;
+    margin-top: 30px;
+    line-height: 10px;
+    text-decoration: underline;
+    font-size: 19px;
+
+  }
+
+  .intro-wrapper {
+    width: 70%;
+    margin-left: 80px;
+    margin-right: 100px;
+  }
+
+  .intro-wrapper p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
