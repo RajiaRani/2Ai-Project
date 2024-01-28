@@ -6,7 +6,6 @@
   width: 100vw;
   height: 300px;
   background-color: #fff; 
-  background-color: darkcyan;
   opacity: 1.0;
   height: 220px;
   position: fixed;
@@ -14,12 +13,10 @@
   z-index: 101;
 }
 .navbar-header{
-  background-color: cornflowerblue;
   width: 100vw;
 }
 .navbar-icons{
   margin-top: 20px;
-  background-color: burlywood;
   height: 37px;
 }
 
@@ -68,7 +65,10 @@
   font-size: 20px;
   font-weight: 500;
 }
-
+.navbar-icons > .nav-links{
+  padding: 2px;
+  font-size: 23px;
+}
 
 
 
