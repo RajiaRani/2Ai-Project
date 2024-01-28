@@ -6,6 +6,7 @@
   width: 100vw;
   height: 300px;
   background-color: #fff; 
+  background-color: darkcyan;
   opacity: 1.0;
   height: 220px;
   position: fixed;
@@ -40,7 +41,7 @@
 
 .banner-image img {
   /* padding-top: 1.5rem; */
-  margin-left: 5rem;
+  /* margin-left: 5rem; */
   width: 120px;
   height: 100x;
  
@@ -62,8 +63,9 @@
 .intro-wrapper {
   margin-top: 30px;
   max-width: 70%;
-  margin-right: 10px;
+  margin-right: 120px;
   margin-left: 10px;
+  padding: 10px;
 
 }
 
