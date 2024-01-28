@@ -13,6 +13,18 @@
   z-index: 101;
 }
 
+.navbar-icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 160px;
+  margin-top: 20px;
+  margin-right: 100px;
+  width: 80%;
+  background-color: burlywood;
+  height: 37px;
+}
+
 .navigation-wrapper {
   display: flex;
   justify-content: space-between;
