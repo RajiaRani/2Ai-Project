@@ -78,7 +78,7 @@
 
 
 /* media query */
-@media screen and (max-width:550px) {
+/* @media screen and (max-width:550px) {
   .navbar {
     width: auto;
     height: auto;
@@ -117,10 +117,10 @@
   }
 
 }
-
+*/
 
 /* for minimum 555px screen */
-@media screen and (min-width:555px) and (max-width:1100px) {
+/* @media screen and (min-width:555px) and (max-width:1100px) {
   navbar {
     width: auto;
     height: auto;
@@ -161,11 +161,11 @@
     width: auto;
     margin-right: 20px;
   }
-}
+}*/
 
 
 /* for maximum 1100 ya below this 1100 px */
-@media screen and (max-width:1199px) {
+/* @media screen and (max-width:1199px) {
   navbar {
     width: auto;
     height: 25px;
@@ -204,10 +204,11 @@
     margin-right: 50px;
   }
 }
+*/
 
 
 /* for min 1300 px */
-@media screen and (min-width:1300px) {
+/* @media screen and (min-width:1300px) {
   navbar {
     width: auto;
     height: auto;
@@ -246,7 +247,7 @@
     margin-right: 100px;
     width: 50%;
   }
-}
+}  */
 
 /* for min 1400px */
 /* @media screen and (min-width:1400px) {
