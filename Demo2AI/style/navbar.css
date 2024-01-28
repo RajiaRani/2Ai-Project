@@ -13,7 +13,10 @@
   top: 0;
   z-index: 101;
 }
-
+.navbar-header{
+  background-color: cornflowerblue;
+  width: 100vw;
+}
 .navbar-icons{
   margin-top: 20px;
   background-color: burlywood;
@@ -25,8 +28,8 @@
   align-items: center;
   justify-content: space-between;
   width: 70%;
-  margin-left:270px;
-  margin-right: 100px;
+  margin-left:290px;
+  margin-right: 90px;
 }
 .left-side-navbar {
   display: flex;
@@ -57,12 +60,8 @@
 }
 
 .intro-wrapper {
-  /* margin-top: 30px;
-  max-width: 70%;
-  margin-right: 120px;
-  margin-left: 10px;
-  padding: 10px; */
-
+  margin-left: 50px;
+  padding: 10px; 
 }
 
 .intro-wrapper p {
