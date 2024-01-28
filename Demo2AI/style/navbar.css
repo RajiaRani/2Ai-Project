@@ -15,27 +15,23 @@
 }
 
 .navbar-icons{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-left: 160px;
   margin-top: 20px;
-  margin-right: 100px;
-  width: 80%;
   background-color: burlywood;
   height: 37px;
 }
 
-.navigation-wrapper {
+.navbar-icons , .navigation-wrapper{
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin-left:270px;
+  margin-right: 100px;
 }
-
 .left-side-navbar {
   display: flex;
   align-items: center;
-  margin-left: 10rem;
+  /* margin-left: 12em; */
  
 }
 
@@ -61,11 +57,11 @@
 }
 
 .intro-wrapper {
-  margin-top: 30px;
+  /* margin-top: 30px;
   max-width: 70%;
   margin-right: 120px;
   margin-left: 10px;
-  padding: 10px;
+  padding: 10px; */
 
 }
 
