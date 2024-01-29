@@ -20,12 +20,7 @@
     align-items: center; */
     
  }
-/* .separation-vertical-left{
-  box-shadow: 2px 2px 2px 3px black;
-}
-.separation-vertical-right{
-  box-shadow: 2px 3px 2px 2px black;
-} */
+
 .project-content{
   width: 50%;
   background-color: darkcyan;
@@ -84,14 +79,3 @@ img {
  width:70%
 }
 
-/* 
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, textarea, input, select {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-weight: inherit;
-  font-style: inherit;
-  font-size: 100%;
-  font-family: inherit;
-  vertical-align: baseline;
-} */
