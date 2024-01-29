@@ -52,6 +52,7 @@ img {
 .separation-vertical-right{
   float: right;
   width: 49.8%;
+ 
 }
 .left-side, .right-side{
   display: flex;
