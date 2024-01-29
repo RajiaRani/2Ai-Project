@@ -5,7 +5,7 @@ body {
 }
 
 #image-container{
-    display: flex;
+    display: grid;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
@@ -24,17 +24,6 @@ body {
     width: 100px;
 }
  
-.recent-team h1 , .old-team h1{
-    padding-left: 1rem;
-    font-size: 1.9rem;
-    color: #062b81;
-    font-size: 38px;
-    border-bottom: 2px solid  rgba(246, 2, 2, 0.86);
-    border-radius: 10px;
-    margin-left: 10px;
-    margin-right: 50px;
-    
-}
 
 .recent-team{
     display: flex;
