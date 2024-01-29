@@ -46,9 +46,16 @@ img {
 }
 .separation-vertical-left{
   float: left;
+  width: 49%;
 }
 .separation-vertical-right{
   float: right;
+  width: 49%;
+}
+.left-side, .right-side{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 /* 
