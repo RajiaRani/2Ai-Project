@@ -1,24 +1,19 @@
-
+.footer{
+   margin-right: 180px;
+}
 
 .footer-content {
    background-color: aquamarine;
-   width: 70%;
-   margin-left:290px;
-   margin-right: 90px;
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
    align-items: center;
 
 }
 
 
-.footer-links {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 2rem;
-    /* height: auto; */
+.footer-link{
+    background-color: bisque;
+    padding: 2px;
 }
 
 
