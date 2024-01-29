@@ -1,12 +1,26 @@
-.image-scroll-container {
-    width: 100%; /* Adjust this width as per your requirement */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Ensure images are in a single line */
+.body-content-container{
+    margin-top: 400px;
 }
 
-.image-scroll-container img {
+.image-scroll-container {
+    width: 100%; /* Adjust this width as per your requirement */
+    overflow: hidden; /* Hide the overflowing content */
+    position: relative;
+}
+
+.image-scroll {
+    display: flex; /* Align images in a row */
+    animation: scroll 10s linear infinite; /* Adjust '10s' to control the speed */
+}
+
+@keyframes scroll {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+.image-scroll img {
     width: 200px; /* Adjust the width of images as needed */
     height: auto; /* Maintain aspect ratio */
-    display: inline-block;
     margin-right: 10px; /* Space between images */
 }
+
