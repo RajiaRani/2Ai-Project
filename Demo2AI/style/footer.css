@@ -32,8 +32,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 30%;
-    margin-left: 20px;
+    width: 20%;
+    margin-left: -10px;
 }
 .top{
     margin-right: 30px;

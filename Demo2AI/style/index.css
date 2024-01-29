@@ -4,7 +4,7 @@
     margin: 0;
 }
 .body-content-container {
-    margin-top: 280px;
+    margin-top: 200px; 
     width: 65%;
     margin-left: 350px;
     margin-right: 90px;
@@ -13,6 +13,12 @@
     box-shadow: 
     10px 0 5px -5px rgba(0, 0, 0, 0.3), /* Right shadow */
     -10px 0 5px -5px rgba(0, 0, 0, 0.3); /* Left shadow */
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    line-height: 1.5;
+    font-size: 16px;
 }
 .image-scroll-container{
     width:50%;
