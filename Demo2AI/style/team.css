@@ -10,10 +10,9 @@ body {
     align-items: center;
     justify-content: space-evenly;
     background-color: #ebebeb;
-    margin-top: 15rem;
-    margin-bottom: 2rem;
-    margin-left: 10%;
-    margin-right: 10%;
+   width: 70%;
+   margin-left:290px;
+   margin-right: 90px;
     margin-bottom: 5rem;
 }
 
