@@ -1,37 +1,50 @@
+#body {
+  width: 65%;
+  margin-left: 350px;
+  margin-right: 90px;
+  min-height: 900px;
+  max-height: 100vh;
+  box-shadow:
+    10px 0 5px -5px rgba(0, 0, 0, 0.3),/* Right shadow */
+    -10px 0 5px -5px rgba(0, 0, 0, 0.3);/* Left shadow */
+}
 
+.projects-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+  margin-left: 360px;
+  margin-right: 90px;
+  margin-top: 10px;
+  height: 25px;
+}
 
-.projects-link{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 40%;
-    margin-left:360px;
-    margin-right: 90px;
-    margin-top: 10px;
-    height: 25px;
-   
-  }
- .projects-container{
-    margin-top: 250px;
-    width: 65%;
-    margin-left: 350px;
-    margin-right: 90px;
- }
+.projects-container {
+  margin-top: 250px;
+  min-height: 900px;
+  max-height: 100vh;
+  /* width: 65%;
+  margin-left: 350px;
+  margin-right: 90px; */
+}
 
- .projects-link a{
+.projects-link a {
   text-decoration: none;
   color: rgba(164, 4, 4, 0.86);
   font-size: 16px;
- }
+}
 
 .links {
   margin-top: 5px;
 }
-.project-content{
+
+.project-content {
   width: 50%;
   background-color: darkcyan;
 }
- .projects {
+
+.projects {
   margin-bottom: 0.4rem;
   /* border-bottom: 1px solid #424242; */
   margin-right: 1rem;
@@ -49,39 +62,48 @@
   font-size: 18px;
   line-height: 1.5;
 }
+
 img {
   width: 75px;
   height: 50px;
 }
-.separation-vertical-left{
+
+.separation-vertical-left {
   float: left;
   width: 49%;
   border-right: 2px solid grey;
 }
-.separation-vertical-right{
+
+.separation-vertical-right {
   float: right;
   width: 49.8%;
- 
+
 }
-.left-side, .right-side{
+
+.left-side,
+.right-side {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 4px;
 }
-.left-side a, .right-side a{
+
+.left-side a,
+.right-side a {
   text-decoration: none;
   color: black;
 }
-.left-side h5, .right-side h5{
+
+.left-side h5,
+.right-side h5 {
   color: #062b81;
   font-size: 17px;
 }
 
-.image-container{
- width:20%;
-}
-.project-info{
- width:70%
+.image-container {
+  width: 20%;
 }
 
+.project-info {
+  width: 70%
+}
