@@ -1,0 +1,8 @@
+.projects-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin-left:290px;
+    margin-right: 90px;
+  }
