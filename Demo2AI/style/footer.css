@@ -3,7 +3,10 @@
     position: relative; 
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer-content {
@@ -17,9 +20,8 @@
 
 }
 
-.f-info-brand,
-.f-info-links,
-.f-info-socials {
+
+.footer-links {
     width: 100%;
     display: flex;
     align-items: center;
@@ -28,25 +30,11 @@
     /* height: auto; */
 }
 
-.f-info-socials i {
-    margin-top: 1rem;
-    margin-right: 2rem;
-    font-size: 2.1rem;
-    color: #062b81;
-}
 
 
 
-.f-info-links a {
-    text-decoration: none;
-    color: black;
-}
 
 
-.f-info-socials i:hover {
-    color: rgba(255, 0, 0, 0.86);
-    transition: 0.5s;
-}
 
 
  
