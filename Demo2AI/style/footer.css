@@ -7,7 +7,7 @@
 }
 
 .footer-content {
-   background-color: aquamarine;
+   background-color:#cbcbcb;
    display: flex;
    justify-content: space-around;
    align-items: center;
@@ -15,12 +15,14 @@
    width: 70%;
     margin-left: 290px;
     margin-right: 90px;
-    margin-top: 100px;
+    margin-top: 50px;
+   height: 40px;
+   font-size: 17px;
+   font-weight: 600;
 }
 
 
 .footer-link{
-    background-color: bisque;
     padding: 2px;
 }
 .footer-link a{
