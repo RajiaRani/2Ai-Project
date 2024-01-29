@@ -25,7 +25,7 @@
   color: #ebebeb;
 }
 
-.navbar-icons , .navigation-wrapper{
+.navbar-icons , .navigation-wrapper , .navbar-icons{
   display: flex;
   align-items: center;
   justify-content: space-between;
