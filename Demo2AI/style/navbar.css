@@ -21,8 +21,7 @@
   margin-top: 20px;
   height: 37px;
   /* color:#062b81; */
-  background-color: black;
-  color: #ebebeb;
+  background-color: rgb(156, 154, 154);
 }
 
 .navbar-icons , .navigation-wrapper{
@@ -32,7 +31,13 @@
   width: 70%;
   margin-left:290px;
   margin-right: 90px;
+  font-size: 17px;
 }
+.navbar-icons a{
+  text-decoration: none;
+  color: #02184a;
+}
+
 .left-side-navbar {
   display: flex;
   align-items: center;
@@ -76,7 +81,11 @@
   font-size: 23px;
 }
 
-
+/* Hover Effects */
+.navbar-icons a:hover{
+  color: rgba(255, 0, 0, 0.86);
+  transition: 0.5s;
+}
 
 
 
