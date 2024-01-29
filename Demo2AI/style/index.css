@@ -11,7 +11,7 @@
     height: 100%;
 }
 .image-scroll-container{
-    width:60%;
+    width:50%;
     height: 500px;
     margin: auto;
     margin-top: 30px;
@@ -20,7 +20,7 @@
 }
 .image-scroll-container img{
     height: 500px;
-    width: 1000px;
+    width: 800px;
 }
 .slide{
     width: 100%;
