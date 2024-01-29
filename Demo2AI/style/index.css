@@ -5,11 +5,14 @@
 }
 .body-content-container {
     margin-top: 280px;
-    width: 70%;
-    margin-left: 290px;
+    width: 65%;
+    margin-left: 350px;
     margin-right: 90px;
     min-height: 900px;
     max-height: auto;
+    box-shadow: 
+    10px 0 5px -5px rgba(0, 0, 0, 0.3), /* Right shadow */
+    -10px 0 5px -5px rgba(0, 0, 0, 0.3); /* Left shadow */
 }
 .image-scroll-container{
     width:50%;
