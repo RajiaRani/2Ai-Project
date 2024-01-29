@@ -43,8 +43,9 @@
 .banner-image img {
   /* padding-top: 1.5rem; */
   /* margin-left: 5rem; */
-  width: 120px;
-  height: 100x;
+  width: 100px;
+  height: 100px;
+  margin-top: 28px;
  
 }
 
