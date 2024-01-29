@@ -5,7 +5,6 @@
     width: 70%;
     margin-left:290px;
     margin-right: 90px;
-    background-color:rgb(249, 93, 93);
     margin-top: 10px;
     height: 25px;
   }
@@ -17,7 +16,14 @@
     /* display: flex;
     justify-content: center;
     align-items: center; */
+    
  }
+/* .separation-vertical-left{
+  box-shadow: 2px 2px 2px 3px black;
+}
+.separation-vertical-right{
+  box-shadow: 2px 3px 2px 2px black;
+} */
 .project-content{
   width: 50%;
   background-color: darkcyan;
