@@ -1,8 +1,14 @@
+#body{
+    min-height: 700px;
+    max-height: 100vh;
+    margin: 0;
+}
 .body-content-container {
     margin-top: 280px;
     width: 70%;
     margin-left: 290px;
     margin-right: 90px;
+    height: 100%;
 }
 .image-scroll-container{
     display: grid;
