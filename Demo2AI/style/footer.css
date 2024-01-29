@@ -1,22 +1,13 @@
-.footer {
-    height: auto;
-    position: relative; 
-    bottom: 0;
-    left: 0;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .footer-content {
-    /* height: 100%; */
-    background-color: #fff;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: space-evenly;
-    font-size: 20px;
+   background-color: aquamarine;
+   width: 70%;
+   margin-left:290px;
+   margin-right: 90px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 
 }
 
