@@ -9,23 +9,23 @@
     margin-right: 90px;
     margin-top: 10px;
     height: 25px;
+   
   }
  .projects-container{
     width: 70%;
     margin-left:290px;
     margin-right: 90px;
     margin-top: 250px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    
  }
+
  .projects-link a{
   text-decoration: none;
-  color: rgba(255, 0, 0, 0.86);
+  color: rgba(164, 4, 4, 0.86);
+  font-size: 16px;
  }
-.links{
-  padding: 7px;
+
+.links {
+  margin-top: 5px;
 }
 .project-content{
   width: 50%;
