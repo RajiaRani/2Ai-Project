@@ -20,6 +20,8 @@ body {
 
 .recent-team-name img{
     border-radius: 50%;
+    height: 100px;
+    width: 100px;
 }
  
 .recent-team h1 , .old-team h1{
