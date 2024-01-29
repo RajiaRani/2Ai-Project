@@ -1,4 +1,4 @@
-const slide = document.querySelector(".slide");
+const slide = document.querySelectorAll(".slide");
 var counter = 0;
 
 slides.forEach(
