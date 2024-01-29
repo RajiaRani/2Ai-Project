@@ -10,9 +10,13 @@
     height: 25px;
   }
  .projects-container{
-   width: 70%;
+    width: 70%;
     margin-left:290px;
     margin-right: 90px;
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
 
  .projects {
