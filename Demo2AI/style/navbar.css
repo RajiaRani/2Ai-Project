@@ -6,7 +6,8 @@
   width: 100vw;
   background-color: #ebebeb; 
   opacity: 1.0;
-  height: 220px;
+  min-height: 230px;
+  max-height: auto;
   position: fixed;
   top: 0;
   z-index: 101;
