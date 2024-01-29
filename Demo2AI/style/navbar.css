@@ -79,7 +79,10 @@
   font-weight: 500;
 }
 .navbar-icons > .nav-links{
-  padding: 2px;
+ padding-top: 4px;
+ padding-bottom: 4px;
+ padding-left: 10px;
+ padding-right: 10px;
   font-size: 23px;
 }
 
