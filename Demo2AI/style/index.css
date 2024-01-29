@@ -19,8 +19,8 @@
     position: relative;
 }
 .image-scroll-container img{
-    height: 500px;
-    width: 800px;
+    /* height: 500px;
+    width: 800px; */
 }
 .slide{
     width: 100%;
