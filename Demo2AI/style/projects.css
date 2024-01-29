@@ -40,7 +40,23 @@
   font-size: 18px;
   line-height: 1.5;
 }
-.projects .project-image img {
-  width: 162px;
-  height: 100px;
+img {
+  width: 75px;
+  height: 50px;
 }
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, textarea, input, select {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+} */
