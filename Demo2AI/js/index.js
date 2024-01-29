@@ -3,6 +3,6 @@ var counter = 0;
 
 slides.forEach(
     (slide,index) => {
-        slide.style.left = `${index*100}%`;
+        slide.style.left = `${index * 100}%`;
     }
 )

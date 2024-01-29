@@ -10,11 +10,12 @@ body {
     align-items: center;
     justify-content: space-evenly;
     background-color: #ebebeb;
-    width: 70%;
-    margin-top: 230px;
-    margin-left:290px;
+    width: 65%;
+    margin-left: 350px;
+    margin-right: 90px;
     margin-right: 90px;
     margin-bottom: 5rem;
+    margin-top: 240px;
 }
 
 .team-image > img{
@@ -49,8 +50,8 @@ body {
     font-size: 17px;
 }
 .old-team{
-    width: 70%;
-    margin-left:290px;
+    width: 65%;
+    margin-left: 350px;
     margin-right: 90px;
 }
 
