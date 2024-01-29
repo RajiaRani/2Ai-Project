@@ -1,5 +1,5 @@
 #body{
-    min-height: 700px;
+    min-height: 900px;
     max-height: 100vh;
     margin: 0;
 }
@@ -8,7 +8,8 @@
     width: 70%;
     margin-left: 290px;
     margin-right: 90px;
-    height: 100%;
+    min-height: 900px;
+    max-height: auto;
 }
 .image-scroll-container{
     width:50%;
