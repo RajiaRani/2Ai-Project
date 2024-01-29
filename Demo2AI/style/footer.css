@@ -19,6 +19,10 @@
     background-color: bisque;
     padding: 2px;
 }
+.footer-link a{
+    text-decoration: none;
+    color: black;
+}
 
 
 
