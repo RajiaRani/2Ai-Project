@@ -14,9 +14,9 @@
    justify-content: space-around;
    align-items: center;
    font-size: 17px;
-    width: 70%; 
-    margin-left: 290px;
-    margin-right: 90px;
+    width: 100vw; 
+    /* margin-left: 290px;
+    margin-right: 90px; */
     margin-top: 50px;
    height: 40px;
    font-size: 19px;
@@ -31,6 +31,15 @@
     text-decoration: none;
     color: black;
 }
+.footer-links-container > .footer-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+
+
 .footer-link a:hover{
     color: rgba(255, 0, 0, 0.86);
     transition: 0.5s;
