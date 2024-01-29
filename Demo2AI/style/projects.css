@@ -47,16 +47,27 @@ img {
 .separation-vertical-left{
   float: left;
   width: 49%;
+  border-right: 2px solid grey;
 }
 .separation-vertical-right{
   float: right;
-  width: 49%;
+  width: 49.8%;
 }
 .left-side, .right-side{
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 4px;
 }
+.left-side a, .right-side a{
+  text-decoration: none;
+  color: black;
+}
+.left-side h5, .right-side h5{
+  color: #062b81;
+  font-size: 17px;
+}
+
 .image-container{
  width:20%;
 }
