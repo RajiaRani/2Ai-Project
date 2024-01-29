@@ -17,7 +17,7 @@ body {
     margin-bottom: 5rem;
 }
 
-.team-image img{
+.team-image > img{
     height: 700px;
     width: 1000px; 
     margin-bottom: 10px;
