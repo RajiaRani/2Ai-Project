@@ -14,7 +14,7 @@
    justify-content: space-around;
    align-items: center;
    font-size: 17px;
-    width: 100vw; 
+    width: 100%; 
     /* margin-left: 290px;
     margin-right: 90px; */
     margin-top: 50px;
@@ -31,11 +31,11 @@
     text-decoration: none;
     color: black;
 }
-.footer-links-container > .footer-link{
+.footer-link{
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 70%;
+    justify-content: space-between;
+    width: 30%;
 }
 
 
