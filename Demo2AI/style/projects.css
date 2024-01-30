@@ -1,7 +1,8 @@
 #body {
   width: 65%;
-  margin-left: 350px;
-  margin-right: 90px;
+  margin-left: auto;
+  margin-right: auto; 
+  align-items: center;
   min-height: 900px;
   max-height: 100vh;
   box-shadow:
@@ -13,17 +14,17 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 40%;
+   width: 40%;
   margin-left: 360px;
   margin-right: 90px;
   margin-top: 10px;
-  height: 25px;
+  height: 25px; 
 }
 
 .projects-container {
   margin-top: 250px;
   min-height: 900px;
-  max-height: 100vh;
+  max-height: 100vh; 
   /* width: 65%;
   margin-left: 350px;
   margin-right: 90px; */
