@@ -8,10 +8,6 @@
 }
 
 #image-container{
-    display: grid;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
     background-color: #ebebeb;
     margin-bottom: 5rem;
     margin-top: 240px;
@@ -24,7 +20,7 @@
 }
  
 
-.recent-team{
+.recent-team1, .recent-team2{
     display: flex;
     align-items: center;
     justify-content: space-between;
