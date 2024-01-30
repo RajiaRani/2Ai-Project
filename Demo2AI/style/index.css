@@ -110,7 +110,7 @@
     transition: 1s;
 }
 .navigation-auto div:not(:last-child){
-    margin-right: 4px;
+    margin-right: 40px;
 }
 #radio1:checked ~ .navigation-auto .auto-btn1{
     background:rgba(230, 65, 65, 0.86);
