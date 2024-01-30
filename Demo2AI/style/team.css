@@ -1,9 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 #body {
     width: 60%;
     margin-left: auto;
@@ -11,7 +6,28 @@
     min-height: 900px;
     max-height: 100vh;
 }
-.image-conatiner{
+
+/* .image-container{
+     background-color: #fff;
+    margin-bottom: 5rem;
+    box-shadow: 
+    10px 0 5px -5px rgba(0, 0, 0, 0.3),
+     -10px 0 5px -5px rgba(0, 0, 0, 0.3); 
+     padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px; 
+     width: 100%; 
+    text-align: center;
+    margin-top: 240px;
+} */
+/* .left-container{
+    width:16%;
+    border: 2px solid black;
+} */
+
+
+
+#image-container{
     background-color: #fff;
     margin-bottom: 5rem;
     margin-top: 240px;
@@ -21,58 +37,9 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 10px;
-     width: 100%; 
-    text-align: center;
-}
-input{
-    display: none;
-}
-h1{
-    font-weight: normal;
-    font-size: 35px;
-    position: relative;
-    margin: 40px 0;
-}
-img{
-    width: 500px;
-    height: 400px;
-}
-h1::before{
-    content: '';
-    position: absolute;
-    width: 100px;
-    height: 3px;
-    background-color: crimson;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    animation: alternate 4s linear infinite;
-}
-@keyframes animate{
-    0%{
-        width: 100px;
-    }
-    50%{
-        width:200px;
-    }
-    100%{
-        width: 400px;
-    }
-}
+} 
 
-/* #image-container{
-    background-color: #fff;
-    margin-bottom: 5rem;
-    margin-top: 240px;
-    box-shadow: 
-    10px 0 5px -5px rgba(0, 0, 0, 0.3), /* Right shadow */
-    /* -10px 0 5px -5px rgba(0, 0, 0, 0.3); /* Left shadow */
-    /*padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-}  */
-
-/* .recent-team-name img, .old-team img{
+ .recent-team-name img, .old-team img{
     border-radius: 50%;
     height: 100px;
     width: 100px;
@@ -84,7 +51,7 @@ h1::before{
 }
  
 
-.recent-team1, .recent-team2, .recent-team3, .recent-team4{
+.recent-team1, .recent-team2, .recent-team3, .old-team{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -97,22 +64,20 @@ h1::before{
 }
 .old-team{
     width: 60%;
-    margin-left: 350px;
-    margin-right: 90px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .old-team h1{
     margin-right: 75%;
 }
-.btn1{
-    margin-top: 20px;
-} */
+
  
 /* Hover effect for team names */
-/*.recent-team-name li:hover, .old-team-name li:hover {
-    color: #ff4500; /* Change to your desired hover color */
-    /*cursor: pointer;*/
-
+.recent-team-name li:hover, .old-team-name li:hover {
+    color: #ff4500;
+    cursor: pointer;
+}
 
 
 /* Media-Query */
