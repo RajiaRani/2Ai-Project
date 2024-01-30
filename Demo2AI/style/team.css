@@ -8,9 +8,12 @@
 }
 
 #image-container{
-    background-color: #ebebeb;
+    background-color: #fff;
     margin-bottom: 5rem;
     margin-top: 240px;
+    box-shadow: 
+    10px 0 5px -5px rgba(0, 0, 0, 0.3), /* Right shadow */
+    -10px 0 5px -5px rgba(0, 0, 0, 0.3); /* Left shadow */
 }
 
 .recent-team-name img{
