@@ -35,7 +35,7 @@
 }
 
 .slides input {
-    display: none;
+    display: none; 
 }
 
 .navigation-manual {
@@ -51,6 +51,7 @@
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
+    transition: 1s;
 }
 
 .manual-btn:not(:last-child) {
@@ -61,35 +62,35 @@
     background-color: rgba(230, 65, 65, 0.86);
 }
 
-#radio1:checked~.first {
+#radio1:checked ~ .first {
     margin-left: 0;
 }
 
-#radio2:checked~.first {
+#radio2:checked ~ .first {
     margin-left: -20%;
 }
 
-#radio3:checked~.first {
+#radio3:checked ~.first {
     margin-left: -40%;
 }
 
-#radio4:checked~.first {
+#radio4:checked ~ .first {
     margin-left: -60%;
 }
 
-#radio5:checked~.first {
+#radio5:checked ~ .first {
     margin-left: -80%;
 }
 
-#radio6:checked~.first {
+#radio6:checked ~ .first {
     margin-left: -100%;
 }
 
-#radio7:checked~.first {
+#radio7:checked ~ .first {
     margin-left: -120%;
 }
 
-#radio8:checked~.first {
+#radio8:checked ~ .first {
     margin-left: -140%;
 }
 
