@@ -21,13 +21,12 @@
     font-size: 16px;
 }
 .image-scroll-container{
-    background-color: black;
-    width:50%;
-    height:auto;
+    width:auto;
+    height:auto; 
     display: grid;
     gap: 10px;
     grid-auto-flow: column;
-    grid-auto-columns: 30%;
+    grid-auto-columns: 50%;
     overflow-x: auto;
     overscroll-behavior-inline:contain;
     /* margin: auto;
@@ -35,12 +34,19 @@
     box-shadow: 0px 0px 3px grey;
     position: relative; */
 }
-.image-scroll-container >  img{
-    width: 250px;
-    height: 200px;
+.slide > img{
+    /* width: 380px;*/
+    height: 400px; 
+    inline-size: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
     /* position: absolute; */
 }
 .slide{
-    padding: 10px;
-    background: 3px ;
+    display: grid;
+    grid-template-rows: min-content;
+    gap: 10px;
+    padding: 5px;
+    background: 3px;
+    border-radius: 2px solid black;
 }
