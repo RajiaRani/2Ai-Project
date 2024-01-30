@@ -23,7 +23,7 @@
 }
  
 
-.recent-team1, .recent-team2, .recent-team3{
+.recent-team1, .recent-team2, .recent-team3, .recent-team4{
     display: flex;
     align-items: center;
     justify-content: space-between;
