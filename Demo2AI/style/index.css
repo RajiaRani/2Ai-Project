@@ -109,7 +109,12 @@
     border-radius: 10px;
     transition: 1s;
 }
-
+.navigation-auto div:not(:last-child){
+    margin-right: 4px;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background:rgba(230, 65, 65, 0.86);
+}
  .body-content-container {
     margin-top: 200px; 
     width: 60%;
