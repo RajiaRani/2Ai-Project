@@ -16,14 +16,14 @@
     -10px 0 5px -5px rgba(0, 0, 0, 0.3); /* Left shadow */
 }
 
-.recent-team-name img{
+.recent-team-name img, .old-team img{
     border-radius: 50%;
     height: 100px;
     width: 100px;
 }
  
 
-.recent-team1, .recent-team2, .recent-team3, .recent-team4{
+.recent-team1, .recent-team2, .recent-team3{
     display: flex;
     align-items: center;
     justify-content: space-between;
