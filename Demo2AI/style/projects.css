@@ -46,7 +46,6 @@
 
 .project-content {
   width: 50%;
-  background-color: darkcyan;
 }
 
 .projects {
@@ -55,7 +54,6 @@
   margin-right: 1rem;
   background-color: #fff;
   border-radius: 10px;
-
 }
 
 .project-heading {
