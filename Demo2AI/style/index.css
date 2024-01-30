@@ -1,58 +1,99 @@
-#body{
+#body {
     min-height: 900px;
     max-height: 100vh;
     margin: 0;
     padding: 0;
 }
-.image-container{
+
+.image-container {
     height: 100vh;
     margin: 0;
     padding: 0;
-     display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center; 
-    background-color:rgba(230, 65, 65, 0.86);
+    align-items: center;
+    background-color: rgba(230, 65, 65, 0.86);
 }
-.slider{
+
+.slider {
     width: 800px;
     height: 500px;
     border-radius: 10px;
     overflow: hidden;
 }
 
-.slides{
+.slides {
     width: 500%;
     height: 500px;
     display: flex;
 }
-.slide img{
+
+.slide img {
     width: 800px;
     height: 500px;
 }
 
-.slides input{
+.slides input {
     display: none;
 }
-.navigation-manual{
-position: absolute;
-width: 800px;
-margin-top: -40px;
-display: flex;
-justify-content: center;
+
+.navigation-manual {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
 }
-.manual-btn{
+
+.manual-btn {
     border: 2px solid rgba(230, 65, 65, 0.86);
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
 }
 
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background-color: rgba(230, 65, 65, 0.86);
+}
+
+#radio1:checked~.first {
+    margin-left: 0;
+}
+
+#radio2:checked~.first {
+    margin-left: 0;
+}
+
+#radio3:checked~.first {
+    margin-left: 0;
+}
+
+#radio4:checked~.first {
+    margin-left: 0;
+}
+
+#radio5:checked~.first {
+    margin-left: 0;
+}
+
+#radio6:checked~.first {
+    margin-left: 0;
+}
+
+#radio7:checked~.first {
+    margin-left: 0;
+}
+
+#radio8:checked~.first {
+    margin-left: 0;
+}
 
 
-
-
-
- /* .body-content-container {
+/* .body-content-container {
     margin-top: 200px; 
     width: 60%;
     margin-left: auto;
@@ -61,8 +102,8 @@ justify-content: center;
     max-height: auto;
     box-shadow: 
     10px 0 5px -5px rgba(0, 0, 0, 0.3), /* Right shadow */
-    /* -10px 0 5px -5px rgba(0, 0, 0, 0.3); /* Left shadow */
-    /* padding-top: 30px;
+/* -10px 0 5px -5px rgba(0, 0, 0, 0.3); /* Left shadow */
+/* padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 10px;
