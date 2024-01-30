@@ -14,9 +14,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-   width: 30%;
-  margin-left: 390px;
-  margin-right: 90px;
+  width: 30%;
+  margin-left: 400px;
+  margin-right: auto;
   margin-top: 10px;
   height: 25px; 
 }
