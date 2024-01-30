@@ -47,12 +47,7 @@
 .btn1{
     margin-top: 20px;
 }
-
-
-
-
-
-  
+ 
 /* Hover effect for team names */
 .recent-team-name li:hover, .old-team-name li:hover {
     color: #ff4500; /* Change to your desired hover color */
