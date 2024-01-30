@@ -30,7 +30,7 @@
 }
 .slide{
     width: 20%;
-    transition: 2s;
+    transition: 4s;
 }
 .slide img {
     width: 800px;
@@ -54,7 +54,7 @@
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
-    transition: 2s;
+    transition: 4s;
 }
 
 .manual-btn:not(:last-child) {
@@ -107,7 +107,7 @@
     border: 2px solid rgba(230, 65, 65, 0.86);
     padding: 5px;
     border-radius: 10px;
-    transition: 2s;
+    transition: 4s;
 }
 .navigation-auto div:not(:last-child){
     margin-right: 40px;
