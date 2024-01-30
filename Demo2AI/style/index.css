@@ -10,8 +10,13 @@
      display: flex;
     justify-content: center;
     align-items: center; 
+    background-color:rgba(230, 65, 65, 0.86);
 }
-
+.slider{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+}
 
 
 
