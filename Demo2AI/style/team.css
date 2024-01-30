@@ -4,7 +4,7 @@
     margin-left: auto;
     margin-right:auto;
     min-height: 900px;
-    max-height: auto;
+    max-height: 100vh;
 }
 
 #image-container{
@@ -14,6 +14,9 @@
     box-shadow: 
     10px 0 5px -5px rgba(0, 0, 0, 0.3), /* Right shadow */
     -10px 0 5px -5px rgba(0, 0, 0, 0.3); /* Left shadow */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
 }
 
 .recent-team-name img, .old-team img{
