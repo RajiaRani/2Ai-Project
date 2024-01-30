@@ -29,6 +29,7 @@
     grid-auto-columns: 50%;
     overflow-x: auto;
     overscroll-behavior-inline:contain;
+    padding:0 4px 0 4px ;
     /* margin: auto;
     margin-top: 30px;
     box-shadow: 0px 0px 3px grey;
