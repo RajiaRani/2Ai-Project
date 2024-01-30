@@ -73,13 +73,13 @@ img {
 
 .separation-vertical-left {
   float: left;
-  width: 49%;
+  width: 49.5%;
   border-right: 2px solid grey;
 }
 
 .separation-vertical-right {
   float: right;
-  width: 49.8%;
+  width: 49.5%;
 
 }
 
