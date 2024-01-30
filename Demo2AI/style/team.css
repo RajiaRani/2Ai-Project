@@ -21,6 +21,11 @@
     height: 100px;
     width: 100px;
 }
+.recent-team-name a , .old-team a{
+    text-decoration: none;
+    padding: 3px;
+    color: black;
+}
  
 
 .recent-team1, .recent-team2, .recent-team3{
