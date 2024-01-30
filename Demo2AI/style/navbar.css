@@ -96,7 +96,7 @@
 
 
 /* media query */
-/* @media screen and (max-width:550px) {
+ /* @media screen and (max-width:550px) {
   .navbar {
     width: auto;
     height: auto;
@@ -134,8 +134,8 @@
 
   }
 
-}
-*/
+} */
+
 
 /* for minimum 555px screen */
 /* @media screen and (min-width:555px) and (max-width:1100px) {
@@ -179,7 +179,7 @@
     width: auto;
     margin-right: 20px;
   }
-}*/
+} */
 
 
 /* for maximum 1100 ya below this 1100 px */
