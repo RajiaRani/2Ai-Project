@@ -3,10 +3,11 @@
     max-height: 100vh;
     margin: 0;
     padding: 0;
+    margin-top: 230px;
 }
 
 .image-container {
-    height: 100vh;
+    height: auto;
     margin: 0;
     padding: 0;
     display: flex;
@@ -93,7 +94,7 @@
 }
 
 
-/* .body-content-container {
+ .body-content-container {
     margin-top: 200px; 
     width: 60%;
     margin-left: auto;
@@ -102,14 +103,14 @@
     max-height: auto;
     box-shadow: 
     10px 0 5px -5px rgba(0, 0, 0, 0.3), /* Right shadow */
-/* -10px 0 5px -5px rgba(0, 0, 0, 0.3); /* Left shadow */
-/* padding-top: 30px;
+   -10px 0 5px -5px rgba(0, 0, 0, 0.3); /* Left shadow */
+    padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 10px;
     line-height: 1.5;
     font-size: 16px;
-}  */
+}  
 /* .image-scroll-container{
     width:auto;
     height:auto; 
