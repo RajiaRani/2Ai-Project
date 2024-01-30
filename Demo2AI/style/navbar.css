@@ -23,7 +23,7 @@
   height: 37px;
   /* color:#062b81; */
   background-color: rgb(156, 154, 154);
-  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.5);;
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .navbar-icons , .navigation-wrapper{
@@ -83,7 +83,7 @@
  padding-bottom: 4px;
  padding-left: 10px;
  padding-right: 10px;
-  font-size: 23px;
+ font-size: 23px;
 }
 
 /* Hover Effects */
