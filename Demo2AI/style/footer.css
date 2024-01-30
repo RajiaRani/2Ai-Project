@@ -34,6 +34,7 @@
     justify-content: space-between;
     width: 20%;
     margin-left: 20px;
+    margin-right: -50px;
     text-align: center;
 }
 .top{
