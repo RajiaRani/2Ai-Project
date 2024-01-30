@@ -5,6 +5,7 @@
     padding: 0;
 }
 .image-container{
+    height: 100vh;
     margin: 0;
     padding: 0;
      display: flex;
@@ -18,8 +19,15 @@
     border-radius: 10px;
 }
 
-
-
+.slides{
+    width: 50%;
+    height: 500px;
+    display: flex;
+}
+.slide img{
+    width: 800px;
+    height: 500px;
+}
 
 
 
