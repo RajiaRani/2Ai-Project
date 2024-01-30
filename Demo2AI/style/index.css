@@ -3,6 +3,10 @@
     max-height: 100vh;
     margin: 0;
     padding: 0;
+}
+.image-container{
+    margin: 0;
+    padding: 0;
      display: flex;
     justify-content: center;
     align-items: center; 
