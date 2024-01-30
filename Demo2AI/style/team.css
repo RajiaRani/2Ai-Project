@@ -1,7 +1,10 @@
 
-body {
-    position: absolute;
-    
+#body {
+    width: 65%;
+    margin-left: auto;
+    margin-right:auto;
+    min-height: 900px;
+    max-height: auto;
 }
 
 #image-container{
@@ -10,10 +13,6 @@ body {
     align-items: center;
     justify-content: space-evenly;
     background-color: #ebebeb;
-    width: 60%;
-    margin-left: 350px;
-    margin-right: 90px;
-    margin-right: 90px;
     margin-bottom: 5rem;
     margin-top: 240px;
 }
