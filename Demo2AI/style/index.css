@@ -115,7 +115,30 @@
 #radio1:checked ~ .navigation-auto .auto-btn1{
     background:rgba(230, 65, 65, 0.86);
 }
- .body-content-container {
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background:rgba(230, 65, 65, 0.86);
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background:rgba(230, 65, 65, 0.86);
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background:rgba(230, 65, 65, 0.86);
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background:rgba(230, 65, 65, 0.86);
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background:rgba(230, 65, 65, 0.86);
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background:rgba(230, 65, 65, 0.86);
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background:rgba(230, 65, 65, 0.86);
+}
+
+
+.body-content-container {
     margin-top: 200px; 
     width: 60%;
     margin-left: auto;
