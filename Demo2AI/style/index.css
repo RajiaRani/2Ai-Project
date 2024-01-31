@@ -13,8 +13,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
     /* background-color: rgba(230, 65, 65, 0.86); */
 }
+.middle-body-container p{
+ font-size: 18px;
+ line-height: 1.5;
+}
+
+
 
 .slider {
     width: 800px;
