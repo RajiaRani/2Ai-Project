@@ -35,6 +35,8 @@
   .group-photo img{
     width: auto;
     height: 500px;
+    border-radius: 15px;
+    border: 2px solid  rgba(158, 5, 5, 0.86);
   }
   .team-intro,.events-container, .group-photo{
     padding-left: 20px;
