@@ -49,7 +49,7 @@
 }
 
 .links {
-  margin-top: 5px;
+  padding: 10px;
 }
 
 .project-content {
@@ -121,7 +121,9 @@ img {
 
 .projects-link a:hover{
   color: #000e2e;
-  font-size: 20px;
+  transition: 0.5s;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 /* media query */
