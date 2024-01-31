@@ -28,6 +28,9 @@
     font-size: 18px;
     line-height: 1.5; 
   }
+  .team-member ul{
+    margin-left: 13px;
+  }
   .events-container h2{
     text-decoration: underline;
     color:#062b81;
