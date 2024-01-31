@@ -38,7 +38,7 @@
   grid-template-columns: repeat(7,1fr);
   grid-template-rows: 1fr;
   */
-  font-size: 24px;
+  font-size: 20px;
   padding-top: 10px;
   font-weight: 600;
 }
@@ -82,7 +82,7 @@
 }
 
 .banner-info p {
-  font-size: 21px;
+  font-size: 20px;
 }
 
 .intro-wrapper {
@@ -106,7 +106,7 @@
 .navbar-icons a:hover{
   color: rgba(158, 5, 5, 0.86);
   transition: 0.5s;
-  font-size: 27px;
+  font-size: 25px;
   text-decoration: underline;
 }
 
