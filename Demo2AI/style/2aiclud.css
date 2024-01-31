@@ -32,6 +32,7 @@
   .team-member ul{
     margin-left: 13px;
   }
+  
 
   .events-container h2{
     text-decoration: underline;
@@ -44,6 +45,10 @@
   .events-container a{
     text-decoration: none;
     color: #062b81;
+  }
+  .team-member ul li a{
+    text-decoration: none;
+    color: black;
   }
   .group-photo img{
     width: 1060px;
@@ -60,6 +65,11 @@
   }
 
   .events-container i:hover{
+    color:rgba(158, 5, 5, 0.86) ;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .team-member ul li a:hover{
     color:rgba(158, 5, 5, 0.86) ;
     cursor: pointer;
     transition: 0.5s;
