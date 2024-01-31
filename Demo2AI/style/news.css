@@ -8,6 +8,7 @@
     box-shadow: 
     10px 0 5px -5px rgba(0, 0, 0, 0.3), /* Right shadow */
    -10px 0 5px -5px rgba(0, 0, 0, 0.3); /* Left shadow */
+   font-family: 'Noto Sans', sans-serif;
 }
 .inner-body{
     

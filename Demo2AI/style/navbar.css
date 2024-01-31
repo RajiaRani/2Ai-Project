@@ -11,6 +11,7 @@
   position: fixed;
   top: 0;
   z-index: 101;
+  font-family: 'Noto Sans', sans-serif;
 }
 .navbar-header{
   width: 100vw;
