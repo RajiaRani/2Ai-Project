@@ -43,3 +43,7 @@
     text-decoration: underline;
     color:#062b81;
   }
+  .group-photo img{
+    width: auto;
+    height: 500px;
+  }
