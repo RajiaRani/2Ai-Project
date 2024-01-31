@@ -38,7 +38,7 @@
     color:#062b81;
   }
   .events-container i{
-    font-size: 20px;
+    font-size: 25px;
   }
   .group-photo img{
     width: 1060px;
@@ -58,5 +58,4 @@
     color:rgba(158, 5, 5, 0.86) ;
     cursor: pointer;
     transition: 0.5s;
-    font-size: 25px;
   }
