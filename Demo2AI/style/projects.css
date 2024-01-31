@@ -16,7 +16,8 @@
 
 .projects-link {
   width: 100%;
-  
+  margin-top: 20px;
+  background-color:#ebebebfe;
 }
 .project-links-bar{
   width: 40%;
@@ -24,6 +25,7 @@
   align-items: center;
   justify-content: space-between; 
   padding-left: 20%;
+
 }
 
 .projects-container {
@@ -41,8 +43,9 @@
 }
 .projects-link a {
   text-decoration: none;
-  color: rgba(164, 4, 4, 0.86);
-  font-size: 16px;
+  color:  rgba(158, 5, 5, 0.86);
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .links {
@@ -116,5 +119,9 @@ img {
   width: 70%
 }
 
+.projects-link a:hover{
+  color: #000e2e;
+  font-size: 20px;
+}
 
 /* media query */
