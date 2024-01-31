@@ -15,15 +15,15 @@
 }
 
 .projects-link {
+  width: 100%;
+  
+}
+.project-links-bar{
+  width: 40%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 30%;
-  margin-left: 400px;
-  margin-right: auto;
-  margin-top: 10px;
-  height: 30px; 
-  
+  justify-content: space-between; 
+  padding-left: 20%;
 }
 
 .projects-container {
