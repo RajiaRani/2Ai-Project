@@ -37,8 +37,13 @@
     text-decoration: underline;
     color:#062b81;
   }
-  .events-container i{
+  .events-container i {
     font-size: 25px;
+    text-decoration: none;
+  }
+  .events-container a{
+    text-decoration: none;
+    color: #062b81;
   }
   .group-photo img{
     width: 1060px;
