@@ -18,3 +18,7 @@
   .team-intro{
     margin-top: 250px;
   }
+  .team-intro p{
+    font-size: 18px;
+    line-height: 1.5; 
+  }
