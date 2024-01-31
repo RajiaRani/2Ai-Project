@@ -24,6 +24,7 @@
     line-height: 1.5; 
    
   }
+
   .team-member{
     font-size: 18px;
     line-height: 1.5; 
@@ -31,9 +32,13 @@
   .team-member ul{
     margin-left: 13px;
   }
+
   .events-container h2{
     text-decoration: underline;
     color:#062b81;
+  }
+  .events-container i{
+    font-size: 20px;
   }
   .group-photo img{
     width: 1060px;
@@ -47,4 +52,11 @@
     padding-right: 30px;
     padding-bottom: 5px;
     font-family: 'Noto Sans', sans-serif;
+  }
+
+  .events-container i:hover{
+    color:rgba(158, 5, 5, 0.86) ;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 25px;
   }
