@@ -23,12 +23,14 @@
   /* color:#062b81; */
   background-color: 	#f9f9f9;
   box-shadow: -5px 5px 3px 3px rgba(0, 0, 0, 0.5);
-  display: flex;
+  /* display: flex;
   align-items: center;
-  text-align: center;
+  text-align: center; */
   width: 100%;
   font-size: 17px;
-  padding-left: 19%;
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-template-rows: 1fr;
 }
 
 .navigation-wrapper{
@@ -84,7 +86,6 @@
   font-weight: 500;
 }
 .navbar-icons > .nav-links {
-  padding: 25px;
  font-size: 24px; 
 }
 
