@@ -1,6 +1,6 @@
 .body{
-    margin-top: 200px; 
-    width: 60%;
+    margin-top: 230px; 
+    width: 25%;
     margin-left: auto;
     margin-right: auto;
     min-height: 900px;
@@ -8,4 +8,5 @@
     box-shadow: 
     10px 0 5px -5px rgba(0, 0, 0, 0.3), /* Right shadow */
    -10px 0 5px -5px rgba(0, 0, 0, 0.3); /* Left shadow */
+   background-color: red;
 }
