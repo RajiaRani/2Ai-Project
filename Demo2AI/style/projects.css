@@ -84,7 +84,7 @@ img {
 .separation-vertical-left {
   float: left;
   width: 49.5%;
-  border-right: 2px solid grey;
+  /* border-right: 2px solid grey; */
   margin-top: 40px;
 }
 
@@ -101,6 +101,8 @@ img {
   align-items: center;
   justify-content: center;
   padding: 10px;
+  border: 2px solid rgb(201, 188, 188);
+  border-radius: 20px;
 }
 
 .left-side a,
