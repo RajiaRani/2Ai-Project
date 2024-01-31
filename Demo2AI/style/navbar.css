@@ -28,13 +28,16 @@
   text-align: center; */
 }
 .links-bar{
-  width: 65%;
-  font-size: 17px;
-  display: grid;
-  grid-template-columns: repeat(6,1fr);
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 18%;
+  /* display: grid;
+  grid-template-columns: repeat(7,1fr);
   grid-template-rows: 1fr;
+  */
   font-size: 24px;
-  padding-left: 20%;
   padding-top: 10px;
   font-weight: 600;
 }
@@ -92,7 +95,7 @@
 }
 .nav-links {
  font-size: 24px; 
- width: 100px;
+ width: 150px;
  height: 30px;
  text-align: center;
  border: none;
