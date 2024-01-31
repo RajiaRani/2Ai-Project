@@ -92,15 +92,18 @@
 }
 .nav-links {
  font-size: 24px; 
- width: 40px;
- height: 20px;
+ width: 100px;
+ height: 30px;
+ text-align: center;
+ border: none;
 }
 
 /* Hover Effects */
 .navbar-icons a:hover{
   color: rgba(158, 5, 5, 0.86);
   transition: 0.5s;
-  font-size: 25px;
+  font-size: 27px;
+  text-decoration: underline;
 }
 
 
