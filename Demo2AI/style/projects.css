@@ -37,6 +37,8 @@
 .projects-container h2{
   margin-left: 30px;
   margin-top: 10px;
+  padding-top: 8px;
+  padding-bottom: 20px;
 
 }
 .projects-link a {
