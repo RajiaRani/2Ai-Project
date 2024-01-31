@@ -32,9 +32,7 @@
   margin-top: 250px;
   min-height: 900px;
   max-height: 100vh; 
-  /* width: 65%;
-  margin-left: 350px;
-  margin-right: 90px; */
+  padding-top: 30px;
 }
 .projects-container h2{
   margin-left: 30px;
