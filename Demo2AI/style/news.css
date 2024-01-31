@@ -10,8 +10,12 @@
    -10px 0 5px -5px rgba(0, 0, 0, 0.3); /* Left shadow */
 }
 .inner-body{
-    width: 40%;
+    width: 44.5%;
     margin-top: 5px;
     margin-right: 10px;
     padding: 10px;
+    background-color: #ebebeb;
+}
+.inner-body:hover{
+    cursor: pointer;
 }
