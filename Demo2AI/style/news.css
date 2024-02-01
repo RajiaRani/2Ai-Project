@@ -9,13 +9,13 @@
     10px 0 5px -5px rgba(0, 0, 0, 0.3), /* Right shadow */
    -10px 0 5px -5px rgba(0, 0, 0, 0.3); /* Left shadow */
    font-family: 'Noto Sans', sans-serif;
+   margin-top: 10px;
+   background-color: #fff;
 }
 .inner-body{
-    
     margin-top: 5px;
     margin-right: 10px;
     padding: 10px;
-    background-color: #ebebeb;
 }
 .inner-body:hover{
     cursor: pointer;
