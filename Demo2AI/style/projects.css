@@ -37,13 +37,13 @@
 }
 .projects-container h2{
   padding-bottom: 7px;
-  margin-right: 29%;
-  text-align: center;
-  margin-left: 0px;
-  border-bottom: 4px solid rgba(185, 4, 4, 0.86) ;
-  border-radius: 30px;
-
+  margin-right: 60%;
+  min-width: 35%;
+  text-align: center; 
+  margin-left: 40px;
+  border-bottom: 4px solid rgba(185, 4, 4, 0.86) ; 
 }
+
 .projects-link a {
   text-decoration: none;
   color:  rgba(158, 5, 5, 0.86);
