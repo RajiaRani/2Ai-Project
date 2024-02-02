@@ -12,6 +12,7 @@
   top: 0;
   z-index: 101;
   font-family: 'Noto Sans', sans-serif;
+  background-color: aquamarine;
 }
 .navbar-header{
   width: 100vw;
@@ -66,9 +67,9 @@
 .banner-image img {
   /* padding-top: 1.5rem; */
   /* margin-left: 5rem; */
-  width: 100px;
-  height: 100px;
-  margin-top: 28px;
+  width: 110px;
+  height: 135px;
+  margin-top: 0px;
  
 }
 
