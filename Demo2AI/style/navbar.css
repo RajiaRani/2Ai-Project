@@ -85,6 +85,7 @@
 .banner-info p {
   font-size: 21px;
   font-weight: 600;
+  color: #010817;
 }
 
 .intro-wrapper {
@@ -95,6 +96,9 @@
 .intro-wrapper p {
   font-size: 17px;
   font-weight: 500;
+  margin-top: 40px;
+  padding: 0px 10px;
+  margin-right: 12px;
 }
 .nav-links {
  font-size: 24px; 
