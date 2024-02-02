@@ -75,7 +75,7 @@
 
 .banner-info {
   padding-left: 0.5rem;
-  padding-top: 1.3rem;
+  padding-top: 1.5rem;
   /* margin-left: 3rem; */
   line-height: 8px;
   text-decoration: underline;
@@ -87,8 +87,8 @@
 }
 
 .intro-wrapper {
-  margin-left: 50px;
-  padding: 10px; 
+  margin-left: 50px; 
+  background-color: burlywood;
 }
 
 .intro-wrapper p {
