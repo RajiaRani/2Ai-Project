@@ -50,6 +50,9 @@
   margin-left: auto;
   margin-right: auto;
   font-size: 17px;
+  box-shadow: 
+  10px 0 5px -5px rgba(0, 0, 0, 0.3), 
+  -10px 0 5px -5px rgba(0, 0, 0, 0.3); 
 }
 .navbar-icons a{
   text-decoration: none;
