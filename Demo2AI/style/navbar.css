@@ -16,6 +16,10 @@
 .navbar-header{
   width: 100vw;
   height: 180px;
+
+  box-shadow: 
+  10px 0 5px -5px rgba(0, 0, 0, 0.3), /* Right shadow */
+ -10px 0 5px -5px rgba(0, 0, 0, 0.3); /* Left shadow */
 }
 
 .navbar-icons{
