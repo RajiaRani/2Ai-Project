@@ -23,6 +23,7 @@
   height: 50px;
   /* color:#062b81; */
   background-color: 	#ebebebfe;
+  background-color: #0d1833;
   box-shadow: -5px 5px 3px 3px rgba(0, 0, 0, 0.5);
   /* display: flex;
   align-items: center;
@@ -53,7 +54,8 @@
 }
 .navbar-icons a{
   text-decoration: none;
-  color: #02184a;
+  color: #010817;
+  color: #fff;
 }
 
 .left-side-navbar {
