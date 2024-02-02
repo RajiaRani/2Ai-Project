@@ -20,7 +20,7 @@
   width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
-  background-color: #0d1833;
+  background-color: #ebebeb;
 }
 .project-links-bar{
   width: 37%;
@@ -47,8 +47,7 @@
 
 .projects-link a {
   text-decoration: none;
-  /* color:  rgba(158, 5, 5, 0.86); */
-  color: #fff;
+  color:  rgba(158, 5, 5, 0.86); 
   font-size: 18px;
   font-weight: 600;
 }
@@ -126,7 +125,7 @@ img {
 }
 
 .projects-link a:hover{
-  color: #000e2e;
+  color: #0d1833;
   transition: 0.5s;
   text-decoration: underline;
   cursor: pointer;
