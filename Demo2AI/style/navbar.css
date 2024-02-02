@@ -83,7 +83,8 @@
 }
 
 .banner-info p {
-  font-size: 17px;
+  font-size: 21px;
+  font-weight: 600;
 }
 
 .intro-wrapper {
@@ -92,7 +93,7 @@
 }
 
 .intro-wrapper p {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 500;
 }
 .nav-links {
