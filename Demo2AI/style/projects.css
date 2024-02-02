@@ -110,9 +110,9 @@ img {
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 20px;
-  border: 2px solid #ebebebfe;
+  /* border: 2px solid #ebebebfe;
   border-radius: 15px;
-  box-shadow: -3px 3px 3px 3px #3a3737fe;
+  box-shadow: -3px 3px 3px 3px #3a3737fe; */
 }
 
 .left-side a,
