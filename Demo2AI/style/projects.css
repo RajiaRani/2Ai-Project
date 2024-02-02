@@ -20,6 +20,7 @@
   width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
+  background-color: #0d1833;
 }
 .project-links-bar{
   width: 37%;
@@ -46,7 +47,8 @@
 
 .projects-link a {
   text-decoration: none;
-  color:  rgba(158, 5, 5, 0.86);
+  /* color:  rgba(158, 5, 5, 0.86); */
+  color: #fff;
   font-size: 18px;
   font-weight: 600;
 }
