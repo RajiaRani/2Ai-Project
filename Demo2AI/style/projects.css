@@ -124,7 +124,9 @@ img {
 .image-container {
   width: 20%;
 }
-
+.project-overview{
+  margin-left: 20px;
+}
 
 
 .projects-link a:hover{
