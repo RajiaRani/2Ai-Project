@@ -12,6 +12,7 @@
     10px 0 5px -5px rgba(0, 0, 0, 0.3),
     -10px 0 5px -5px rgba(0, 0, 0, 0.3);
     font-family: 'Noto Sans', sans-serif;
+    padding: 20px;
 }
 
 .full-image-overlay {
@@ -41,5 +42,8 @@
   img{
     width: 500px;
     height: 400px;
+  }
+  .project-content{
+    margin-left: 25%;
   }
   
