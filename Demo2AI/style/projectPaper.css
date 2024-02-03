@@ -14,7 +14,24 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
-.project-content{
-   
-}
-
+.full-image-overlay {
+    display: none; /* Initially hidden */
+    position: fixed; /* Overlay is positioned in relation to the viewport */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    z-index: 10; /* Ensure it sits above other content */
+    cursor: pointer; /* Indicates you can click it to close */
+  }
+  
+  .full-image-overlay img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the image */
+    max-width: 90%; /* Adjust based on preference */
+    max-height: 90%; /* Adjust based on preference */
+  }
+  

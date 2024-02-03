@@ -1,8 +1,17 @@
 
-document.getElementById('clickableImage').addEventListener('click', function() {
-    document.getElementById('fullImageOverlay').style.display = 'none';
-});
-
-document.getElementById('fullImageOverlay').addEventListener('click', function() {
-    document.getElementById('fullImageOverlay').style.display = 'none';
-});
+document.addEventListener("DOMContentLoaded", function() {
+   
+    var imgThumbnail = document.getElementById("clickableImage");
+    var overlay = document.getElementById("fullImageOverlay");
+  
+ 
+    imgThumbnail.addEventListener("click", function() {
+      overlay.style.display = "block";
+    });
+  
+    // Optional: Hide the overlay when it is clicked
+    overlay.addEventListener("click", function() {
+      overlay.style.display = "none";
+    });
+  });
+  
