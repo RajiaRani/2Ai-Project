@@ -35,8 +35,8 @@
     max-height: 90%; /* Adjust based on preference */
   }
   .full-image-overlay img{
-    width: 500px;
-    height: 400px;
+    width: 1000px;
+    height: 700px;
   }
   img{
     width: 500px;
