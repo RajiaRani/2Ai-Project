@@ -13,9 +13,8 @@
     -10px 0 5px -5px rgba(0, 0, 0, 0.3);
     font-family: 'Noto Sans', sans-serif;
 }
-.middle-container{
-  align-items: center;
-  height: 100vh;
-  min-height: 900px;
-  max-height: auto;
+
+.project-content{
+   
 }
+
