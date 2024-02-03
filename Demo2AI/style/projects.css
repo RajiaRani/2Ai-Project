@@ -79,7 +79,7 @@ img {
 }
 
 .separation-vertical-left {
-  float: left;
+   float: left; 
   width: 49.5%;
   margin-bottom: 50px;
   border-right: 2px solid grey; 
