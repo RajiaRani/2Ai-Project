@@ -34,4 +34,12 @@
     max-width: 90%; /* Adjust based on preference */
     max-height: 90%; /* Adjust based on preference */
   }
+  .full-image-overlay img{
+    width: 500px;
+    height: 400px;
+  }
+  img{
+    width: 500px;
+    height: 400px;
+  }
   
