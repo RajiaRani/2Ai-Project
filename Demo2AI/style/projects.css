@@ -57,7 +57,7 @@
 }
 
 .project-content {
-  width: 50%;
+  
 }
 
 .project-heading {
@@ -83,7 +83,6 @@ img {
 
 .separation-vertical-left {
    float: right; 
-  width: 49.5%;
   margin-bottom: 50px;
   /* border-right: 2px solid grey;  */
   margin-top: 30px;
