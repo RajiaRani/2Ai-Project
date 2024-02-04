@@ -134,5 +134,7 @@ img {
   text-decoration: underline;
   cursor: pointer;
 }
-
+.btn{
+  margin-left: 85%;
+}
 /* media query */
