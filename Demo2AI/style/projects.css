@@ -20,7 +20,7 @@
   background-color: #ededed;
   font-size: 14px;
   line-height: 1.42857143;
-  margin-top: 15rem;
+  margin-top: 14rem;
   margin-bottom: 2.0rem;
   position: relative;
 }
@@ -35,12 +35,8 @@
   width: 18%;
   justify-content: center;
   background-color: #ededed;
+  background-color: aqua;
 }
-
-/* .left-container {
-  left: 0;
-  position: fixed;
-} */
 
 .left-container h2 {
    padding-left: 1rem;
