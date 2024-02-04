@@ -43,14 +43,13 @@
 } */
 
 .left-container h2 {
-  /* padding-left: 1.5rem;
+   padding-left: 1rem;
   color: #062b81;
-  font-size: 38px;
-  margin-left: 20px;
-  margin-right: 50px;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: 20px;
   border-bottom: 2px solid rgba(246, 2, 2, 0.86);
-  border-radius: 10px; */
-  /* box-shadow: 0px 2px 0px 0px rgba(246, 2, 2, 0.86);  */
+  border-radius: 10px; 
 }
 
 
@@ -71,7 +70,6 @@
 }
 
 .projects {
-
   margin-right: 1rem;
   background-color: #fff;
   border-radius: 10px; 
