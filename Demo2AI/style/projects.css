@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #ededed;
+  width: 100vw;
 }
 
 
@@ -10,7 +11,7 @@ body {
   display: flex;
   min-height: 1600px;
   max-height: auto;
-  width: 100vw;
+  width: 60%;
   background-color: #ededed;
   font-size: 14px;
   line-height: 1.42857143;
@@ -23,16 +24,11 @@ body {
   margin-left: 10px;
   margin-right: 10px;
   width: 16%;
-  /* min-height: 700px; */
   max-height: auto;
-  /* border-radius: 10px; */
   line-height: 1.8;
   font-weight: 500;
   font-size: 17px;
   justify-content: center;
-  /* border: 0px solid black;
-  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
-  background-color: #fff; */
   background-color: #ededed;
 }
 .left-container{
