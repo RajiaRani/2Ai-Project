@@ -28,19 +28,19 @@
 .left-container {
   /* margin-left: 10px;
   margin-right: 10px;
-  width: 10%;
   max-height: auto;
   line-height: 1.8;
   font-weight: 500;
   font-size: 17px; */
+  width: 18%;
   justify-content: center;
   background-color: #ededed;
 }
 
-.left-container {
+/* .left-container {
   left: 0;
   position: fixed;
-}
+} */
 
 .left-container h2 {
   padding-left: 1.5rem;
@@ -65,7 +65,7 @@
 
 
 .middle-container {
-  width: 62%;
+  width:80%;
   height: auto;
   margin-left: 10px;
   margin-left: 20.4%;
