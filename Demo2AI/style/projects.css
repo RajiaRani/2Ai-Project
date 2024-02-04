@@ -85,7 +85,7 @@
 }
 
 
-.middle-container>.projects a {
+.middle-container > .projects a {
   display: flex;
   height: auto;
   text-decoration: none;
