@@ -15,7 +15,7 @@
   width: 60%;
   margin-left: auto;
   margin-right: auto;
-  min-height: 1600px;
+  min-height: 900px;
   max-height: auto;
   background-color: #ededed;
   font-size: 14px;
@@ -66,19 +66,20 @@
 
 .middle-container {
   width:80%;
+  
   height: auto;
 }
 
 .projects {
 
-  /* margin-right: 1rem;
+  margin-right: 1rem;
   background-color: #fff;
-  border-radius: 10px;  */
+  border-radius: 10px; 
 
 }
 
 .project-info h2 {
-  color: #062b81;
+  color: #010e2c;
   font-size: 26px;
 }
 
@@ -88,7 +89,7 @@
 }
 
 .projects .project-image img {
-  width: 162px;
+  width: 150px;
   height: 100px;
 }
 
@@ -105,18 +106,6 @@
   max-height: auto;
   padding: 2rem;
 }
-
-.projects .project-image {
-  padding-top: 4rem;
-  padding-right: 4rem;
-}
-
-
-
-
-
-
-
 
 
 
