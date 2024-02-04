@@ -41,5 +41,7 @@
     border-radius: 10px;
 }
 .books-title{
-    padding: 50px;
+    margin-top: -20px;
+    padding-left: 5px;
+    padding-right: 30px;
 }
