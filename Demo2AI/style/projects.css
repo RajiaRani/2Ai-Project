@@ -66,8 +66,8 @@
 
 .middle-container {
   width:80%;
-  
-  height: auto;
+  min-height: 900px;
+  max-height: auto;
 }
 
 .projects {
