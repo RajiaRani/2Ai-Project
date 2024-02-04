@@ -12,13 +12,14 @@
   width: 60%;
   margin-left: auto;
   margin-right: auto;
-  min-height: 900px;
-  max-height: auto;
   background-color: #ededed;
   font-size: 14px;
   line-height: 1.42857143;
   margin-top: 14rem;
-  margin-bottom: 2.0rem;
+  margin-bottom: 2.0rem; 
+  box-shadow: 
+  10px 0 5px -5px rgba(0, 0, 0, 0.3), 
+  -10px 0 5px -5px rgba(0, 0, 0, 0.3); 
 }
 
 .left-container {
