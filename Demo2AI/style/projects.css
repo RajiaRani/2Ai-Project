@@ -23,12 +23,12 @@
 }
 
 .left-container {
-  /* margin-left: 10px;
+   margin-left: 10px;
   margin-right: 10px;
   max-height: auto;
   line-height: 1.8;
   font-weight: 500;
-  font-size: 17px; */
+  font-size: 17px; 
   width: 18%;
   justify-content: center;
   background-color: #ededed;
@@ -57,14 +57,14 @@
 
 
 .middle-container {
-  width:80%;
+  width:100%;
   min-height: 900px;
   max-height: auto;
 }
 
 .projects {
   margin-right: 1rem;
-  background-color: #fff;
+  background-color: #ededed;
   border-radius: 10px; 
 
 }
