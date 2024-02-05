@@ -35,9 +35,10 @@
   line-height: 1.8;
   font-weight: 500;
   font-size: 17px; 
-  width: 18%;
+  width: 30%;
   justify-content: center;
   background-color: #fff;
+  background-color: bisque;
 }
 
 .left-container h2 {
@@ -62,7 +63,7 @@
 
 
 .middle-container {
-  width:100%;
+  width:80%;
   min-height: 900px;
   max-height: auto; 
 }
@@ -103,7 +104,10 @@
   margin-bottom: 3px;
   margin-right: 10px;
 }
-
+.heading{
+  background-color:#fff;
+  margin-top: 38px;
+}
 
 
 
