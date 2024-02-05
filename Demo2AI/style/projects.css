@@ -38,7 +38,6 @@
   width: 30%;
   justify-content: center;
   background-color: #fff;
-  background-color: bisque;
 }
 
 .left-container h2 {
@@ -106,7 +105,10 @@
 }
 .heading{
   background-color:#fff;
-  margin-top: 38px;
+  margin-top: 32px;
+  font-size: 33px;
+  text-decoration: underline;
+  color: #062b81;
 }
 
 
