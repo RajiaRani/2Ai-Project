@@ -1,7 +1,5 @@
 #body {
   width: 100vw;
-  margin-left: auto;
-  margin-right:auto;
   margin-top: -210px;
   font-family: 'Noto Sans', sans-serif;
 }
@@ -12,6 +10,11 @@
   width: 60%;
   margin-left: auto;
   margin-right: auto;
+  min-height: 900px;
+  max-height: auto;
+  box-shadow: 
+  10px 0 5px -5px rgba(0, 0, 0, 0.3), 
+ -10px 0 5px -5px rgba(0, 0, 0, 0.3);
   background-color: #ededed;
   font-size: 14px;
   line-height: 1.42857143;
@@ -32,11 +35,13 @@
   width: 18%;
   justify-content: center;
   background-color: #ededed;
+  min-height: 900px;
+  max-height: auto;
 
 }
 
 .left-container h2 {
-   padding-left: 1rem;
+  padding-left: 1rem;
   color: #062b81;
   font-size: 30px;
   margin-left: 10px;
@@ -59,7 +64,7 @@
 .middle-container {
   width:100%;
   min-height: 900px;
-  max-height: auto;
+  max-height: auto; 
 }
 
 .projects {
