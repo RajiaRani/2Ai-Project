@@ -94,6 +94,8 @@
 .projects .project-image img {
   width: 150px;
   height: 100px;
+  margin-top: 70px;
+  margin-right: 40px;
 }
 
 
@@ -107,9 +109,12 @@
 .projects .project-info {
   min-height: 80px;
   max-height: auto;
-  padding: 2rem;
+  padding-left: 20px;
 }
-
+.projects{
+  background-color: burlywood;
+  margin-bottom: 3px;
+}
 
 
 
