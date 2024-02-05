@@ -62,7 +62,7 @@
 
 
 .middle-container {
-  width:80%;
+  width:90%;
   min-height: 900px;
   max-height: auto; 
 }
@@ -80,9 +80,9 @@
 .projects .project-image img {
   width: 120px;
   height: 90px;
-  margin-top: 40px;
-  margin-right: 20px;
+  padding: 10px;
   border-radius: 14px;
+  margin-top: 20px;
 }
 
 
@@ -114,8 +114,10 @@
 span{
   color: rgb(183, 4, 4);
 }
-
-
+.left-container ul li a:hover{
+  color: rgb(183, 4, 4);
+  cursor: pointer;
+}
 
 
 
