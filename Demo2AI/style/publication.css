@@ -50,3 +50,16 @@
 .card-text {
     color: red;
 }
+.books-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: pink;
+    /* grid-gap: 20px;
+    padding-left: 30px;
+    padding-right: 30px; */
+}
+img{
+    height: 400px;
+    width: 200px;
+}
