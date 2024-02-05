@@ -15,8 +15,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    /* background-color: rgba(230, 65, 65, 0.86); */
 }
 .middle-body-container{
     padding: 5px;
