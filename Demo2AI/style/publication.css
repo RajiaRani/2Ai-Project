@@ -3,6 +3,7 @@
     margin-left: auto;
     margin-right:auto;
     font-family: 'Noto Sans', sans-serif;
+   
 }
 .books-container{
     width: 60%;
@@ -14,13 +15,14 @@
     10px 0 5px -5px rgba(0, 0, 0, 0.3), 
    -10px 0 5px -5px rgba(0, 0, 0, 0.3);
     padding-bottom: 30px;
-
+    background-color: #ebebeb;
 }
 .info{
     width: 90%;
     margin-left: auto;
     margin-right:auto;
     background-color:#fff;
+    background-color: #ebebeb;
     padding-left: 20px;
     margin-bottom: 10px;
 }
