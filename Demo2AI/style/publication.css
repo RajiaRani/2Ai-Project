@@ -57,7 +57,7 @@ img{
 }
 
 /* card */
-.listing-card{
+.card-books{
     border:none !important;
     margin-bottom: 2rem;
 }
@@ -65,7 +65,7 @@ img{
     border-radius: 1rem !important;
     width: 100% !important;
     object-fit: cover !important;
-    height:20rem !important;
+    height:25rem !important;
 }
 .card-body{
  padding: 0 !important;
