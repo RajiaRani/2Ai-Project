@@ -58,3 +58,6 @@
 .books-title p{
     color: red;
 }
+.books-img{
+    border: 2px solid black;
+}
