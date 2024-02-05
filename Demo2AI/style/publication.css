@@ -30,7 +30,7 @@
 .info h1{
     font-size: 33px;
 }
-.books-info{
+/* .books-info{
     margin-left: auto;
     margin-right:auto;
     display: grid;
@@ -38,16 +38,12 @@
     grid-template-rows:repeat(3,1fr);
     grid-gap: 10px;
     padding-left: 40px;
-}
-.card-img-top img {
+} */
+.card-img-top > img {
     width: 300px;
     height: 400px;
 }
-.books-title{
-    margin-top: -20px;
-    padding-left: 5px;
-    padding-right: 38px;
-}
+
 .books-title h3{
     color: #040e21;
 }
