@@ -39,11 +39,9 @@
     grid-gap: 10px;
     padding-left: 40px;
 }
-.books-info > .books-img img {
+.card-img-top img {
     width: 300px;
     height: 400px;
-    border-radius: 10px;
-   
 }
 .books-title{
     margin-top: -20px;
@@ -53,12 +51,9 @@
 .books-title h3{
     color: #040e21;
 }
-.books-img a{
+.books-container a{
     text-decoration: none;
 }
-.books-title p{
+.card-text {
     color: red;
-}
-.books-img{
-    border: 2px solid black;
 }
