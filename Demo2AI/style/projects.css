@@ -35,7 +35,7 @@
   line-height: 1.8;
   font-weight: 500;
   font-size: 17px; 
-  width: 30%;
+  width: 20%;
   justify-content: center;
   background-color: #fff;
 }
@@ -44,8 +44,8 @@
   padding-left: 1rem;
   color: #062b81;
   font-size: 30px;
-  margin-left: 10px;
-  margin-right: 75px;
+  margin-left: 0px;
+  margin-right: 10px;
   border-bottom: 2px solid rgba(246, 2, 2, 0.86);
   border-radius: 10px; 
 }
