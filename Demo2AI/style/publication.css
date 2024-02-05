@@ -45,3 +45,12 @@
     padding-left: 5px;
     padding-right: 38px;
 }
+.books-title h3{
+    color: #040e21;
+}
+.books-img a{
+    text-decoration: none;
+}
+.books-title p{
+    color: red;
+}
