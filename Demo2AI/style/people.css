@@ -17,7 +17,8 @@
 }
 
 .faculty-name img,
-.recent-team-name img {
+.recent-team-name img,
+.old-team-name img{
     width: 100px;
     height: 100px;
     border-radius: 15px;
@@ -28,7 +29,7 @@
 
 }
 
-.faculty-name-container, .recent-team-name-container {
+.faculty-name-container {
     width: 70%;
     display: flex;
     align-items: center;
@@ -42,4 +43,9 @@
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+}
+.old-team-name-container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,1fr);
 }
