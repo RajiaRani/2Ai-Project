@@ -28,11 +28,18 @@
 
 }
 
-.faculty-name-container {
+.faculty-name-container, .recent-team-name-container {
     width: 70%;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
     padding: 10px 25px;
+}
+.recent-team-name-container{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
 }
