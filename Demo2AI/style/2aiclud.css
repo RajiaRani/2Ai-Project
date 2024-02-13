@@ -56,6 +56,8 @@
     height: 550px;
     border-radius: 15px;
     border: 2px solid  rgba(158, 5, 5, 0.86);
+    margin-top: 30px;
+    margin-bottom: 25px;
   }
   
   .team-intro,.events-container, .group-photo{
