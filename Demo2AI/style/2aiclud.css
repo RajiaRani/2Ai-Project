@@ -45,7 +45,10 @@
   }
   .events-container a{
     text-decoration: none;
-    color: #062b81;
+    color: #062b81; 
+  }
+  .events-container{
+   font-size: 19px;
   }
   .team-member ul li a{
     text-decoration: none;
